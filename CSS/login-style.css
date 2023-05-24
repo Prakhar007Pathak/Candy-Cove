@@ -1,0 +1,121 @@
+main {
+    margin-top: 8px;
+    width: 100%;
+    height: calc(100vh - 11.9vh);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login {
+    width: 50%;
+    height: 100%;
+    background-color: white;
+}
+
+.for-h1-of-login {
+    margin-top: 70px;
+    width: 100%;
+    height: 15%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.for-h1-of-login h1 {
+    font-size: 64px;
+    font-weight: 800;
+    letter-spacing: -4.15px;
+    color: rgba(0, 0, 0, 0.849);
+
+}
+
+.for-p-note-for-filling {
+    width: 100%;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(128, 128, 128);
+}
+
+.for-p-note-for-filling p {
+    font-size: 15px;
+}
+
+.space-for-email {
+    margin-top: 60px;
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.e-mail {
+    width: 500px;
+    height: 70%;
+    font-size: 18px;
+    box-sizing: border-box;
+    outline: none;
+}
+
+.space-for-password {
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pass-code {
+    width: 500px;
+    height: 70%;
+    font-size: 18px;
+    box-sizing: border-box;
+    outline: none;
+}
+
+.space-for-submit {
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.submit {
+    width: 500px;
+    height: 70%;
+    font-size: 20px;
+    border: white 2px solid;
+    background-color: #ff8700;
+    box-sizing: border-box;
+    /* outline: none; */
+}
+
+.for-new-acc {
+    width: 100%;
+    height: 6vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.for-new-acc p {
+    font-size: 13px;
+    color: rgb(128, 128, 128);
+}
+
+.for-new-acc span {
+    visibility: hidden;
+}
+
+.for-new-acc a {
+    text-decoration: none;
+    border-bottom-color: rgb(128, 128, 128);
+    border-bottom-style: solid;
+    border-bottom-width: 1.5px;
+    width: fit-content;
+}
+

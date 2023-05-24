@@ -1,0 +1,294 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Ubuntu', 'Nunito', sans-serif;
+}
+
+/* header */
+
+header {
+    width: 100%;
+    height: 17vh;
+    background-color: rgb(231, 228, 228);
+}
+
+.header-offers-strip {
+    width: 100%;
+    height: 5.1vh;
+}
+
+.offers-strip {
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    color: #ff8700;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.offers-strip p {
+    font-size: 12px;
+    color: #ff8700;
+}
+
+.main-header {
+    width: 100%;
+    height: 11.9vh;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.23);
+    /* position: fixed; */
+}
+
+.logo {
+    width: 65px;
+    height: 65px;
+    margin-left: 50px;
+}
+
+
+.logo img{
+    border-radius: 100%;
+    
+}
+
+.categories {
+    width: 610px;
+    height: 130px;
+}
+
+.categories nav {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.categories nav ul a {
+    font-size: 14px;
+    text-decoration: none;
+    color: black;
+}
+
+.header-icon-list {
+    margin-right: 45px;
+    width: 150px;
+    height: 130px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.search {
+    width: 50px;
+    height: 100%;
+}
+
+.search-icon {
+    color: black;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.account {
+    width: 50px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.account-icon {
+    color: black;
+}
+
+.cart {
+    width: 50px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cart-icon {
+    color: black;
+}
+
+
+
+
+
+
+
+
+
+
+/* footer */
+
+.space-for-footer{
+    width: 100%;
+    height: 60vh;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.87);
+    
+}
+.universal-footer{
+    padding-top: 50px;
+    /* background-color: blueviolet; */
+    width: 100%;
+    height: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.know-us{
+    margin-left: 50px;
+   width: 175px;
+   height: 90%;
+   /* background-color: black; */
+}
+.know-us h3 {
+    font-size: 15px;
+}
+.know-us nav {
+    margin-top: 25px;
+}
+.know-us nav ul{
+    padding: 10px 0 10px 0;
+}
+.know-us nav ul a{ 
+    font-size: 15px;
+    color: white;
+    text-decoration: none;
+}
+.terms-cond{
+    width: 175px;
+    height: 90%;
+    /* background-color: black; */
+} 
+.terms-cond nav ul{
+    padding: 10px 0 10px 0;
+}
+.terms-cond nav ul a{ 
+    font-size: 15px;
+    color: white;
+}
+.follow-us{
+    width: 200px;
+    height: 90%;
+    /* background-color: aquamarine; */
+}
+.follow-us h3{
+    width: 100%;
+    height: 20%;
+    font-size: 15px;
+    text-align: center;
+}
+.fab-ins{
+    display: flex;
+    justify-content: space-around;
+
+}
+.container-forboth-insta-fab{
+    width: 60px;
+    height: 60px;
+    background-color: black;
+    border-radius: 10px;
+}
+.social-media__link{
+    width: 60px;
+    height: 60px;
+    display: inline-block; 
+    color: white;
+}
+.contact{
+    width: 225px;
+    height: 90%;
+    /* background-color: aqua; */
+}
+.contact-email{
+    margin-bottom: 15px;
+}
+.contact-email p{
+    font-size: 15px;
+    color: white;
+    margin-bottom: 5px;
+}
+.contact-email p a{
+    font-size: 15px;
+    color: white;
+}
+
+.contact-phone-to-quries{
+    margin-bottom: 15px;
+}
+.contact-phone-to-quries p{
+    font-size: 15px;
+    color: white;
+    margin-bottom: 5px;
+}
+.contact-phone-to-quries p a{
+    font-size: 15px;
+    color: white;
+}
+
+.contact-phone-to-distributor p{
+    font-size: 15px;
+    color: white;
+    margin-bottom: 5px;
+}
+.contact-phone-to-distributor p a{
+    font-size: 15px;
+    color: white;
+}
+ .newsletter{
+    margin-right: 50px;
+    width: 300px;
+    height: 90%;
+    /* background-color: crimson; */
+}
+.newsletter h3{
+    font-size: 15px;
+    margin-bottom: 20px;
+}
+.footer-e-mail{
+    width: 300px;
+    height: 40px;
+    font-size: 15px;
+    outline: none;
+    background-color: black;
+    color: white;
+    border: 2px solid rgba(0, 0, 0, 0.87);;
+}
+.universal-footer-2nd{
+    width: 100%;
+    height: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.name-and-copy{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.footer-name{
+    margin-left: 50px;
+    font-size: 15px;
+}
+.footer-copy{
+    margin-right: 50px;
+    font-size: 15px;
+}
