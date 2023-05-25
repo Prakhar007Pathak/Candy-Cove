@@ -9,13 +9,13 @@
 
 header {
     width: 100%;
-    height: 17vh;
+    height: auto;
     background-color: rgb(231, 228, 228);
 }
 
 .header-offers-strip {
     width: 100%;
-    height: 5.1vh;
+    height: auto;
 }
 
 .offers-strip {
@@ -35,7 +35,7 @@ header {
 
 .main-header {
     width: 100%;
-    height: 11.9vh;
+    height: auto;
     background-color: white;
     display: flex;
     justify-content: space-between;
