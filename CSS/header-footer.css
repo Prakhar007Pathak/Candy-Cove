@@ -135,7 +135,7 @@ header {
 
 .space-for-footer{
     width: 100%;
-    height: 60vh;
+    height: auto;
     color: white;
     background-color: rgba(0, 0, 0, 0.87);
     
@@ -144,7 +144,7 @@ header {
     padding-top: 50px;
     /* background-color: blueviolet; */
     width: 100%;
-    height: 80%;
+    height: auto;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -153,7 +153,7 @@ header {
 .know-us{
     margin-left: 50px;
    width: 175px;
-   height: 90%;
+   height: auto;
    /* background-color: black; */
 }
 .know-us h3 {
@@ -172,7 +172,7 @@ header {
 }
 .terms-cond{
     width: 175px;
-    height: 90%;
+    height: auto;
     /* background-color: black; */
 } 
 .terms-cond nav ul{
@@ -184,7 +184,7 @@ header {
 }
 .follow-us{
     width: 200px;
-    height: 90%;
+    height: auto;
     /* background-color: aquamarine; */
 }
 .follow-us h3{
@@ -212,7 +212,7 @@ header {
 }
 .contact{
     width: 225px;
-    height: 90%;
+    height: auto;
     /* background-color: aqua; */
 }
 .contact-email{
@@ -253,7 +253,7 @@ header {
  .newsletter{
     margin-right: 50px;
     width: 300px;
-    height: 90%;
+    height: auto;
     /* background-color: crimson; */
 }
 .newsletter h3{
@@ -279,7 +279,7 @@ header {
 
 .name-and-copy{
     width: 100%;
-    height: 100%;
+    height: auto;
     display: flex;
     align-items: center;
     justify-content: space-between;
