@@ -29,11 +29,13 @@ header {
 }
 
 .offers-strip p {
+    padding: 8px 0;
     font-size: 12px;
     color: #ff8700;
 }
 
 .main-header {
+    padding: 7px 0;
     width: 100%;
     height: auto;
     background-color: white;
@@ -58,7 +60,8 @@ header {
 
 .categories {
     width: 610px;
-    height: 130px;
+    height: auto;
+    padding: 10px 0;
 }
 
 .categories nav {
@@ -78,7 +81,7 @@ header {
 .header-icon-list {
     margin-right: 45px;
     width: 150px;
-    height: 130px;
+    height: auto;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -153,7 +156,7 @@ header {
 .know-us{
     margin-left: 50px;
    width: 175px;
-   height: auto;
+   height: 200px;
    /* background-color: black; */
 }
 .know-us h3 {
@@ -172,7 +175,7 @@ header {
 }
 .terms-cond{
     width: 175px;
-    height: auto;
+    height: 200px;
     /* background-color: black; */
 } 
 .terms-cond nav ul{
@@ -184,7 +187,7 @@ header {
 }
 .follow-us{
     width: 200px;
-    height: auto;
+    height: 200px;
     /* background-color: aquamarine; */
 }
 .follow-us h3{
@@ -212,7 +215,7 @@ header {
 }
 .contact{
     width: 225px;
-    height: auto;
+    height: 200px;
     /* background-color: aqua; */
 }
 .contact-email{
@@ -253,7 +256,7 @@ header {
  .newsletter{
     margin-right: 50px;
     width: 300px;
-    height: auto;
+    height: 200px;
     /* background-color: crimson; */
 }
 .newsletter h3{
@@ -271,13 +274,15 @@ header {
 }
 .universal-footer-2nd{
     width: 100%;
-    height: 20%;
+    height: auto;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
 .name-and-copy{
+    margin: 25px 0 10px 0;
+    padding: 20px 0;
     width: 100%;
     height: auto;
     display: flex;
