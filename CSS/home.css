@@ -5,6 +5,19 @@ main{
     width: 100%;
     height: auto;    
 }
+/* vissibility hidden for media */
+.menu-img{
+    width: 0px;
+    height: 0px;
+    position: absolute;
+}
+.sub-menu-wrap{
+    width: 0px;
+    height: 0px;
+    position: absolute;
+
+}
+/* end */
 .space-for-highlighted-product{
     width: 100%;
     height: auto;
@@ -25,7 +38,7 @@ main{
     justify-content: center;
     align-items: center;
     overflow: hidden;
-    overflow-x: hidden;
+    overflow-x: scroll;
     -ms-overflow-style: none;
     scrollbar-width: none;
     scroll-behavior: smooth;
@@ -222,12 +235,13 @@ img {
     overflow: hidden;
     transition: max-height 0.5s;
 }
-.space-for-all-bestseller h2{
-    margin-top: 25px;
-    padding: 25px 0;
+.space-for-all-bestseller-for-h2{
+    padding: 30px 0;
     width: 100%;
     height: auto;
     text-align: center;
+    color: black;
+    font-size: 25px;
 }
 .first-bestseller{
     width: 100%;
@@ -249,7 +263,7 @@ img {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    overflow-x: hidden;
+    overflow-x: scroll;
     -ms-overflow-style: none;
     scrollbar-width: none;
     scroll-behavior: smooth;
@@ -259,8 +273,30 @@ img {
     width: 250px;
     height: 350px;
 }
-.first-bestseller-product-list-for-a a{
+.product-title{
+    font-size: 15px;
+    padding: 12px 0;
+    width: 100%;
+    height: auto;
+    text-align: center;
+    color: black;
+}
+.price {
+    font-size: 17px;
+    font-weight: 600;
+   color: #000;
+   padding: 2px 70px 2px 50px;
+}
+.add-cart {
+    font-size: 20px;
+    font-weight: 600;
+   color: #000;
+   padding: 2px 50px 2px 0px;
+   cursor: pointer;
+}
+.first-bestseller-product-list-for-a .product-box{
     text-decoration: none;
+    height: auto;
 }
 .first-bestseller-product-listImage{
     width: 250px;
@@ -286,11 +322,11 @@ img {
     align-items: center;
 }
 .about-product{
-    width: 150px;
-    height: 210px;
+    width: 100px;
+    height: 160px;
 }
 .about-M-i-I{
-    width: 328px;
+    width: 220px;
 }
 .about-product p{
 padding-top: 20px;
