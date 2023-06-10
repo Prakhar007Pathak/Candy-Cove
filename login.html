@@ -11,29 +11,37 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Nunito&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css">
     <title>Login Page</title>
 </head>
 
 <body>
+<!-- HEADER -->
     <header>
+        <!-- TOP OFFER STRIP -->
         <div class="header-offers-strip">
             <div class="offers-strip">
                 <p>ADD RECENT OFFERS HERE</p>
             </div>
         </div>
+        <!-- MAIN HEADER -->
         <div class="main-header">
+            <!-- LOGO -->
             <div class="logo"><img src="IMG/temp_logo.jpg" alt="logo" width="65px" height="65px"></div>
-            <div class="categories">
+            <!-- OUR TOP FACILITIES CATEGORY -->
+            <div class="categories" id="id-of-categories">
                 <nav>
                     <ul><a href="#">Our Product</a></ul>
                     <ul><a href="#">Build Your Own Box</a></ul>
-                    <ul><a href="#">Our Collective</a></ul>
+                    <ul><a href="#">Box Customization</a></ul>
                     <ul><a href="#">Our Gifts</a></ul>
                     <ul><a href="#">About</a></ul>
                     <ul><a href="#">Bulk</a></ul>
                 </nav>
             </div>
+            <!-- ALL HEADER ICON LIST -->
             <div class="header-icon-list">
+                <!-- search -->
                 <div class="search">
                     <a href="#" is="toggle-link" class="search-icon"><svg focusable="false" width="18" height="18"
                             class="icon--header-search" viewBox="0 0 18 18">
@@ -42,6 +50,7 @@
                                 fill="none" stroke="currentColor" stroke-width="2"></path>
                         </svg></a>
                 </div>
+                <!-- account -->
                 <div class="account">
                     <a href="login.html" class="account-icon" aria-label="Login"><svg focusable="false" width="18"
                             height="17" class="icon icon--header-customer   " viewBox="0 0 18 17">
@@ -51,18 +60,27 @@
                                 stroke-width="2"></path>
                         </svg></a>
                 </div>
+                <!-- cart -->
+                <i class="bx bx-shopping-bag" id="cart-icon"></i>
                 <div class="cart">
-                    <a href="#" is="toggle-link" aria-controls="mini-cart" aria-expanded="false" class="cart-icon"
-                        aria-label="Cart" data-no-instant=""><svg focusable="false" width="20" height="18"
-                            class="icon--header-cart   " viewBox="0 0 20 18">
-                            <path d="M3 1h14l1 16H2L3 1z" fill="none" stroke="currentColor" stroke-width="2"></path>
-                            <path d="M7 4v0a3 3 0 003 3v0a3 3 0 003-3v0" fill="none" stroke="currentColor"
-                                stroke-width="2"></path>
-                        </svg></a>
+                    <h2 class="cart-title">Your Cart</h2>
+                    <!-- cart content -->
+                    <div class="cart-content">
+
+                    </div>
+                    <div class="total">
+                        <div class="total-title">Total</div>
+                        <div class="total-price">₹0</div>
+                    </div>
+                    <!-- buy Button -->
+                    <button type="button" class="btn-buy">Buy Now</button>
+                    <!-- cart close -->
+                    <i class="bx bx-x" id="close-cart"></i>
                 </div>
             </div>
         </div>
     </header>
+<!-- MAIN -->
     <main>
         <div class="login">
             <div class="for-h1-of-login">
@@ -93,6 +111,7 @@
             </div>
         </div>
     </main>
+<!-- FOOTER -->
     <footer>
         <div class="space-for-footer">
             <div class="universal-footer">
@@ -124,35 +143,38 @@
                                     width="60" height="60" class="icon-fab-insta" viewBox="-4 -8 18 34">
                                     <path fill-rule="evenodd" clip-rule="evenodd"
                                         d="M2.486 16.2084L2.486 8.81845H0L0 5.93845L2.486 5.93845L2.486 3.81845C2.38483 2.79982 2.73793 1.78841 3.45107 1.05407C4.16421 0.319722 5.16485 -0.0628415 6.186 0.00844868C6.9284 0.00408689 7.67039 0.0441585 8.408 0.128449V2.69845L6.883 2.69845C6.4898 2.61523 6.08104 2.73438 5.79414 3.01585C5.50724 3.29732 5.3803 3.70373 5.456 4.09845L5.456 5.93845H8.308L7.936 8.81845H5.46L5.46 16.2084H2.486Z"
-                                        fill="currentColor"></path></svg></a>
+                                        fill="currentColor"></path>
+                                </svg></a>
                         </div>
                         <div class="instagram container-forboth-insta-fab">
                             <a href="https://www.instagram.com//" target="_blank" rel="noopener"
                                 class="social-media__link" aria-label="Follow us on Instagram"><svg focusable="false"
                                     width="60" height="60" class="icon-fab-insta" viewBox="-7 -7 30 30">
                                     <path fill-rule="evenodd" clip-rule="evenodd"
-                                        d="M8 0C5.827 0 5.555.01 4.702.048 3.85.087 3.269.222 2.76.42a3.921 3.921 0 00-1.417.923c-.445.444-.719.89-.923 1.417-.198.509-.333 1.09-.372 1.942C.01 5.555 0 5.827 0 8s.01 2.445.048 3.298c.039.852.174 1.433.372 1.942.204.526.478.973.923 1.417.444.445.89.719 1.417.923.509.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.445-.01 3.298-.048c.852-.039 1.433-.174 1.942-.372a3.922 3.922 0 001.417-.923c.445-.444.719-.89.923-1.417.198-.509.333-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.298c-.039-.852-.174-1.433-.372-1.942a3.922 3.922 0 00-.923-1.417A3.921 3.921 0 0013.24.42c-.509-.198-1.09-.333-1.942-.372C10.445.01 10.173 0 8 0zm0 1.441c2.136 0 2.39.009 3.233.047.78.036 1.203.166 1.485.276.374.145.64.318.92.598.28.28.453.546.598.92.11.282.24.705.276 1.485.038.844.047 1.097.047 3.233s-.009 2.39-.047 3.233c-.036.78-.166 1.203-.276 1.485-.145.374-.318.64-.598.92-.28.28-.546.453-.92.598-.282.11-.705.24-1.485.276-.844.038-1.097.047-3.233.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.479 2.479 0 01-.92-.598 2.478 2.478 0 01-.598-.92c-.11-.282-.24-.705-.276-1.485-.038-.844-.047-1.097-.047-3.233s.009-2.39.047-3.233c.036-.78.166-1.203.276-1.485.145-.374.318-.64.598-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.844-.038 1.097-.047 3.233-.047zm0 9.226a2.667 2.667 0 110-5.334 2.667 2.667 0 010 5.334zm0-6.775a4.108 4.108 0 100 8.216 4.108 4.108 0 000-8.216zm5.23-.162a.96.96 0 11-1.92 0 .96.96 0 011.92 0z" fill="currentColor"></path></svg></a>
+                                        d="M8 0C5.827 0 5.555.01 4.702.048 3.85.087 3.269.222 2.76.42a3.921 3.921 0 00-1.417.923c-.445.444-.719.89-.923 1.417-.198.509-.333 1.09-.372 1.942C.01 5.555 0 5.827 0 8s.01 2.445.048 3.298c.039.852.174 1.433.372 1.942.204.526.478.973.923 1.417.444.445.89.719 1.417.923.509.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.445-.01 3.298-.048c.852-.039 1.433-.174 1.942-.372a3.922 3.922 0 001.417-.923c.445-.444.719-.89.923-1.417.198-.509.333-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.298c-.039-.852-.174-1.433-.372-1.942a3.922 3.922 0 00-.923-1.417A3.921 3.921 0 0013.24.42c-.509-.198-1.09-.333-1.942-.372C10.445.01 10.173 0 8 0zm0 1.441c2.136 0 2.39.009 3.233.047.78.036 1.203.166 1.485.276.374.145.64.318.92.598.28.28.453.546.598.92.11.282.24.705.276 1.485.038.844.047 1.097.047 3.233s-.009 2.39-.047 3.233c-.036.78-.166 1.203-.276 1.485-.145.374-.318.64-.598.92-.28.28-.546.453-.92.598-.282.11-.705.24-1.485.276-.844.038-1.097.047-3.233.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.479 2.479 0 01-.92-.598 2.478 2.478 0 01-.598-.92c-.11-.282-.24-.705-.276-1.485-.038-.844-.047-1.097-.047-3.233s.009-2.39.047-3.233c.036-.78.166-1.203.276-1.485.145-.374.318-.64.598-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.844-.038 1.097-.047 3.233-.047zm0 9.226a2.667 2.667 0 110-5.334 2.667 2.667 0 010 5.334zm0-6.775a4.108 4.108 0 100 8.216 4.108 4.108 0 000-8.216zm5.23-.162a.96.96 0 11-1.92 0 .96.96 0 011.92 0z"
+                                        fill="currentColor"></path>
+                                </svg></a>
                         </div>
                     </div>
                 </div>
                 <div class="contact">
                     <div class="contact-email">
                         <p>For Queries email us:</p>
-                        <p><a href="#">prakharpathak400@gmail.com</a></p>
+                        <p><a href="#">example123@gmail.com</a></p>
                     </div>
                     <div class="contact-phone-to-quries">
                         <p>For Any Order Related Queries:</p>
-                        <p><a href="#">+91 9716981823</a></p>
+                        <p><a href="#">+91 XXXXXXXXXX</a></p>
                     </div>
                     <div class="contact-phone-to-distributor">
                         <p>For Distributor & Bulk Enquiry:</p>
-                        <p><a href="#">+91 8354902155</a></p>
+                        <p><a href="#">+91 XXXXXXXXXX</a></p>
                     </div>
                 </div>
                 <div class="newsletter">
                     <h3>NEWSLETTER</h3>
                     <h3>Sign up to get the latest on sales, new releases and more …</h3>
-                    <form action="#" >
+                    <form action="#">
                         <label for="email"></label>
                         <div class="space-for-footer-email">
                             <input type="email" class="footer-e-mail" id="footer-email" name="email"
@@ -163,8 +185,8 @@
         </div>
         <div class="universal-footer-2nd">
             <div class="name-and-copy">
-                <p class="footer-name">PRAKHAR PATHAK</p>
-                <p class="footer-copy">&copy;20XX-20XX site_name.com</p>
+                <p class="footer-name">CANDY COVE</p>
+                <p class="footer-copy">&copy;1968-2023 candycove.com</p>
             </div>
         </div>
     </footer>
