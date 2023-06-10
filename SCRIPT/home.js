@@ -1,4 +1,4 @@
-// const butttons = document.querySelectorAll(".tabs-nav__item-list button");
+const butttons = document.querySelectorAll(".tabs-nav__item-list button");
 
 const HlProduct = document.querySelector(".highlighted-product-list");
 const rightArrow = document.querySelector(".next-button .right-arrow svg");
@@ -20,51 +20,41 @@ const forthBestSeller = document.querySelector(".actually-forth-bestseller-produ
 const forthleftArrowBestSeller = document.querySelector(".left-and-right-arrow-of-4thBS .forth-bestseller-left-arrow svg");
 const forthrightArrowBestSeller = document.querySelector(".left-and-right-arrow-of-4thBS .forth-bestseller-right-arrow svg");
 
-// const leftArrowContainer = document.querySelector(".next-button .left-arrow")
-// const rightArrowContainer = document.querySelector(".next-button .right-arrow")
-// const manageIcons = () => {
-//     if (HlProduct.scrollLeft >= 20){
-//         leftArrowContainer.classList.add("active");
-//     }
-//     else{
-//         leftArrowContainer.classList.remove("active");
-//     }
-// }
 
 rightArrowBestSeller.addEventListener("click", () => {
-    firstBestSeller.scrollLeft += 1000;
+    firstBestSeller.scrollLeft += 2000;
     manageIcons();
 });
 leftArrowBestSeller.addEventListener("click", () => {
-    firstBestSeller.scrollLeft -= 1000;
+    firstBestSeller.scrollLeft -= 2000;
     manageIcons();
 });
 
 
 secondrightArrowBestSeller.addEventListener("click", () => {
-    secondBestSeller.scrollLeft += 1000;
+    secondBestSeller.scrollLeft += 2000;
     manageIcons();
 });
 secondleftArrowBestSeller.addEventListener("click", () => {
-    secondBestSeller.scrollLeft -= 1000;
+    secondBestSeller.scrollLeft -= 2000;
     manageIcons();
 });
 
 thirdrightArrowBestSeller.addEventListener("click", () => {
-    thirdBestSeller.scrollLeft += 1000;
+    thirdBestSeller.scrollLeft += 2000;
     manageIcons();
 });
 thirdleftArrowBestSeller.addEventListener("click", () => {
-    thirdBestSeller.scrollLeft -= 1000;
+    thirdBestSeller.scrollLeft -= 2000;
     manageIcons();
 });
 
 forthrightArrowBestSeller.addEventListener("click", () => {
-    forthBestSeller.scrollLeft += 1000;
+    forthBestSeller.scrollLeft += 2000;
     manageIcons();
 });
 forthleftArrowBestSeller.addEventListener("click", () => {
-    forthBestSeller.scrollLeft -= 1000;
+    forthBestSeller.scrollLeft -= 2000;
     manageIcons();
 });
 
@@ -90,10 +80,7 @@ butttons.forEach(buttton => {
         buttton.classList.add("heading");
     });
 });
-// let subMenu = document.getElementById("space-for-first-bestseller");
-// function toggleMenu() {
-//     subMenu.classList.toggle("open-menu");
-// }
+
 
 var slideIndex = 1;
 showSlides(slideIndex);
@@ -130,5 +117,5 @@ function showSlides() {
    slideIndex++;
    if (slideIndex > slides.length) { slideIndex = 1 }
    slides[slideIndex - 1].style.display = "block";
-   setTimeout(showSlides, 4000); // Change image every 2 seconds
+   setTimeout(showSlides, 4000); // Change image every 4 seconds
 }
