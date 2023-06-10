@@ -269,6 +269,8 @@ img {
     scroll-behavior: smooth;
 }
 .first-bestseller-product-list-for-a{
+    position: relative;
+    left: 50%;
     margin: 0 25px;
     width: 250px;
     height: 350px;
