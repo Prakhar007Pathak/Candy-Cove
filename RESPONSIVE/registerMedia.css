@@ -1,0 +1,34 @@
+@media screen and (max-width: 360px){
+    .for-h1-of-login {
+        margin-top: 40px;
+    }
+    .for-h1-of-login h1 {
+        font-size: 55px;
+        letter-spacing: -3.15px;
+    }
+    .space-for-both-name {
+        margin-top: 50px;
+    }
+    .for-both-name{
+        width: 340px;
+    }
+    .name {
+        font-size: 17px;
+    }
+    .e-mail {
+        width: 340px;
+        font-size: 17px;
+    }
+    .phone {
+        width: 340px;
+        font-size: 17px;
+    }
+    .pass-code {
+        width: 340px;
+        font-size: 17px;
+    }
+    .submit {
+        width: 340px;
+        font-size: 20px;
+    }
+}

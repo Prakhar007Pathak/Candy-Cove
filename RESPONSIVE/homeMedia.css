@@ -1,0 +1,96 @@
+@media screen and (max-width: 360px) {
+    .next-button {
+        display: none;
+        width: 0px;
+    }
+
+    .highlighted-product-list {
+        width: 100%;
+    }
+
+    .HL-product {
+        position: relative;
+        left: 270px;
+    }
+
+    .HL-product img {
+        display: inline-block;
+        width: 70px;
+    }
+
+    .HL-product p {
+        font-size: 10px;
+    }
+
+    .text-container h3 {
+        margin-top: 45px;
+        font-size: 35px;
+    }
+
+    .tabs-nav__item {
+        margin: 15px 3px;
+        font-size: 8px;
+    }
+
+    .space-for-all-bestseller-for-h2 {
+        font-size: 20px;
+    }
+
+    .space-for-bestseller-left-right-Arrow {
+        visibility: collapse;
+        display: none;
+    }
+
+    .first-bestseller-product-list-for-a {
+        margin: 0 15px;
+        position: relative;
+        left: 612px;
+        height: 244px;
+    }
+
+    .first-bestseller-product-listImage {
+        display: inline-block;
+        width: 150px;
+        height: 150px;
+    }
+
+    .product-title {
+        font-size: 13px;
+    }
+
+    .price {
+        font-size: 15px;
+    }
+
+    .about-All-product {
+        padding: 20px 5px;
+    }
+
+    .about-product {
+        width: 45px;
+        height: 80px;
+    }
+
+    .about-product p {
+        padding-top: 10px;
+        height: auto;
+        font-size: 8px;
+    }
+
+    .about-product img {
+        width: 40px;
+    }
+
+    .about-M-i-I {
+        width: auto;
+    }
+
+    .about-M-i-I p {
+        font-size: 8px;
+    }
+
+    .about-M-i-I img {
+        height: 40px;
+        width: 87px;
+    }
+}

@@ -1,0 +1,154 @@
+@media screen and (max-width: 360px) {
+    .space-for-footer {
+        position: relative;
+        top: 1500px;/* 1900 */
+        width: 360px;
+    }
+    main{
+        width: 360px;
+        position: relative;
+        top: 0px;
+    }
+    .second-main {
+        display: block;
+    }
+
+    .main-left-product {
+        width: 360px;
+    }
+
+    .selector-for-images {
+        width: 100%;
+        display: block;
+        height: auto;
+    }
+
+    .imgBox {
+        width: 300px;
+        height: 300px;
+        margin: 20px 0 10px calc(100% - 50% - 150px);
+        position: absolute;
+        top: 0;
+    }
+
+    .imgBox img {
+        width: 300px;
+        height: 300px;
+    }
+
+    .ul-of-img-selector {
+        width: 360px;
+        position: absolute;
+        top: 320px;
+        gap: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 15px 0 10px calc(100% - 50% - 180px);
+    }
+
+    .ul-of-img-selector li {
+        width: 70px;
+        height: 70px;
+    }
+
+    .main-right-product {
+        position: absolute;
+        top: 410px;
+        width: 360px;
+    }
+
+    .name-and-prize h2 {
+        font-size: 20px;
+        text-align: left;
+    }
+
+    .class-for-media-hr {
+        width: calc(100% - 50% - 180px);
+        position: absolute;
+        top: 0px;
+    }
+
+    .name-and-prize p {
+        font-size: 18px;
+    }
+
+    .for-chooseing-flavours p {
+        font-size: 17px;
+    }
+
+    .flavours-name {
+        margin-top: 20px;
+    }
+
+    .add-to-cart {
+        padding: 0;
+    }
+
+    .add-to-cart button {
+        width: 320px;
+        height: 40px;
+    }
+
+    .add-to-cart button input {
+        font-size: 15px;
+        text-align: center;
+    }
+
+    .buy-now {
+        padding: 0;
+    }
+
+    .buy-now form {
+        width: 320px;
+        height: 40px;
+    }
+
+    .bottom-main-above-hr {
+        width: calc(100% - 50% - 180px);
+        position: absolute;
+        top: 1485px;
+    }
+
+    .bottom-main {
+        width: 360px;
+        height: auto;
+        position: relative;
+        top: 1500px;
+    }
+    .main-heading-of-like-products{
+        font-size: 20px;
+    }
+
+    .space-for-like-products-left-right-Arrow {
+        visibility: hidden;
+        display: none;
+    }
+
+    .like-products-list {
+        width: 100%;
+    }
+
+    .like-products-list-for-a {
+        margin: 0 15px;
+        position: relative;
+        left: 612px;
+        height: 250px;
+    }
+
+    .like-products-listImage {
+        width: 150px;
+        height: 150px;
+    }
+    .product-title{
+        font-size: 13px;
+    }
+    .price {
+        font-size: 15px;
+    }
+
+    .add-cart {
+        font-size: 18px;
+    }
+
+}
