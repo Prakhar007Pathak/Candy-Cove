@@ -8,6 +8,8 @@
     <link rel="stylesheet" href="CSS/header-footer.css">
     <link rel="stylesheet" href="CSS/product.css">
     <link rel="stylesheet" href="CSS/header-footer-Media.css">
+    <link rel="stylesheet" href="RESPONSIVE/productMedia.css">
+    <link rel="stylesheet" href="RESPONSIVE/headerFooterMedia.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
@@ -31,7 +33,7 @@
             <!-- LOGO -->
             <div class="logo"><img src="IMG/temp_logo.jpg" alt="logo" width="65px" height="65px"></div>
             <!-- OUR TOP FACILITIES CATEGORY -->
-            <div class="categories" id="id-of-categories">
+         <div class="categories" id="id-of-categories"> 
                 <nav>
                     <ul><a href="#">Our Product</a></ul>
                     <ul><a href="#">Build Your Own Box</a></ul>
@@ -62,11 +64,15 @@
                                 stroke-width="2"></path>
                         </svg></a>
                 </div>
+                <div class="burger" id="burgerID">
+                    <div class="burgerLine"></div>
+                    <div class="burgerLine"></div>
+                    <div class="burgerLine"></div>
+                </div>
                 <!-- cart -->
                 <i class="bx bx-shopping-bag" id="cart-icon"></i>
                 <div class="cart">
                     <h2 class="cart-title">Your Cart</h2>
-                    <!-- cart content -->
                     <div class="cart-content">
 
                     </div>
@@ -74,9 +80,7 @@
                         <div class="total-title">Total</div>
                         <div class="total-price">₹0</div>
                     </div>
-                    <!-- buy Button -->
                     <button type="button" class="btn-buy">Buy Now</button>
-                    <!-- cart close -->
                     <i class="bx bx-x" id="close-cart"></i>
                 </div>
             </div>
@@ -111,7 +115,7 @@
                     <h2 class="product-title">Full Product Detailed Name</h2>
                     <p class="price">₹ 100</p>
                 </div>
-                <hr>
+                <hr class="class-for-media-hr">
                 <div class="flavours">
                     <div class="for-chooseing-flavours">
                         <p>Choose Your Flavours:</p><span>_</span>
@@ -139,13 +143,13 @@
                     <p>Quantity:</p>
                     <form class="quantity-inc-dec-form">
                         <div class="value-button" id="decrease" onclick="decreaseValue()" value="Decrease Value">-</div>
-                        <input type="number" id="quantity-number" value="0" />
+                        <input type="number" id="quantity-number" minlength="1" />
                         <div class="value-button" id="increase" onclick="increaseValue()" value="Increase Value">+</div>
                     </form>
                 </div>
                 <div class="add-to-cart">
                     <button>
-                        <input type="submit" class="add-cart-button add-cart" value="ADD TO CART">
+                        <input type="submit" class="add-cart-button" value="ADD TO CART">
                     </button>
                 </div>
                 <div class="buy-now">
@@ -201,7 +205,7 @@
                                     class="like-products-listImage product-img" alt="first-product">
                                 <h2 class="product-title">FIRST PRODUCT</h2>
                             </a>
-                            <span class="price">₹ 1000</span><i class="bx bx-shopping-bag add-cart"></i>
+                           <div class="forPriceAndCart"><span class="price">₹ 1000</span><i class="bx bx-shopping-bag add-cart"></i></div>
 
                         </div>
                         <div class="like-products-list-for-a"><a href="" class="product-box"><img
@@ -209,7 +213,7 @@
                                     class="like-products-listImage product-img" alt="first-product">
                                 <h2 class="product-title">SECOND PRODUCT</h2>
                             </a>
-                            <span class="price">₹ 1000</span><i class="bx bx-shopping-bag add-cart"></i>
+                           <div class="forPriceAndCart"><span class="price">₹ 1000</span><i class="bx bx-shopping-bag add-cart"></i></div>
 
                         </div>
                         <div class="like-products-list-for-a"><a href="" class="product-box"><img
@@ -217,7 +221,7 @@
                                     class="like-products-listImage product-img" alt="first-product">
                                 <h2 class="product-title">THIRD PRODUCT</h2>
                             </a>
-                            <span class="price">₹ 1000</span><i class="bx bx-shopping-bag add-cart"></i>
+                           <div class="forPriceAndCart"><span class="price">₹ 1000</span><i class="bx bx-shopping-bag add-cart"></i></div>
 
                         </div>
                         <div class="like-products-list-for-a"><a href="" class="product-box"><img
@@ -225,7 +229,7 @@
                                     class="like-products-listImage product-img" alt="first-product">
                                 <h2 class="product-title">FOURTH PRODUCT</h2>
                             </a>
-                            <span class="price">₹ 1000</span><i class="bx bx-shopping-bag add-cart"></i>
+                           <div class="forPriceAndCart"><span class="price">₹ 1000</span><i class="bx bx-shopping-bag add-cart"></i></div>
 
                         </div>
                         <div class="like-products-list-for-a"><a href="" class="product-box"><img
@@ -233,7 +237,7 @@
                                     class="like-products-listImage product-img" alt="first-product">
                                 <h2 class="product-title">FIFTH PRODUCT</h2>
                             </a>
-                            <span class="price">₹ 1000</span><i class="bx bx-shopping-bag add-cart"></i>
+                           <div class="forPriceAndCart"><span class="price">₹ 1000</span><i class="bx bx-shopping-bag add-cart"></i></div>
 
                         </div>
                         <div class="like-products-list-for-a"><a href="" class="product-box"><img
@@ -241,7 +245,7 @@
                                     class="like-products-listImage product-img" alt="first-product">
                                 <h2 class="product-title">SIXTH PRODUCT</h2>
                             </a>
-                            <span class="price">₹ 1000</span><i class="bx bx-shopping-bag add-cart"></i>
+                           <div class="forPriceAndCart"><span class="price">₹ 1000</span><i class="bx bx-shopping-bag add-cart"></i></div>
 
                         </div>
                         <div class="like-products-list-for-a"><a href="" class="product-box"><img
@@ -249,7 +253,7 @@
                                     class="like-products-listImage product-img" alt="first-product">
                                 <h2 class="product-title">SEVENTH PRODUCT</h2>
                             </a>
-                            <span class="price">₹ 1000</span><i class="bx bx-shopping-bag add-cart"></i>
+                           <div class="forPriceAndCart"><span class="price">₹ 1000</span><i class="bx bx-shopping-bag add-cart"></i></div>
 
                         </div>
                         <div class="like-products-list-for-a"><a href="" class="product-box"><img
@@ -257,7 +261,7 @@
                                     class="like-products-listImage product-img" alt="first-product">
                                 <h2 class="product-title">EIGHT PRODUCT</h2>
                             </a>
-                            <span class="price">₹ 1000</span><i class="bx bx-shopping-bag add-cart"></i>
+                           <div class="forPriceAndCart"><span class="price">₹ 1000</span><i class="bx bx-shopping-bag add-cart"></i></div>
 
                         </div>
                     </div>
@@ -356,6 +360,7 @@
     </footer>
     <!-- SCRIPTS -->
     <script src="SCRIPT/product.js"></script>
+    <script src="SCRIPT/headerFooter.js"></script>
     <script src="SCRIPT/cart.js"></script>
     <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
     <script type="text/javascript">
@@ -369,23 +374,3 @@
 </body>
 
 </html>
-
-<!-- <a href="#" is="toggle-link" aria-controls="mini-cart" aria-expanded="false" class="cart-icon"
-                        aria-label="Cart" data-no-instant=""><svg focusable="false" width="20" height="18"
-                            class="icon--header-cart   " viewBox="0 0 20 18">
-                            <path d="M3 1h14l1 16H2L3 1z" fill="none" stroke="currentColor" stroke-width="2"></path>
-                            <path d="M7 4v0a3 3 0 003 3v0a3 3 0 003-3v0" fill="none" stroke="currentColor"
-                                stroke-width="2"></path>
-                        </svg></a> -->
-
-<!-- <div class="cart-box">
-                    <img class="cart-img" src="" alt="product name">
-                    <div class="detail-box">
-                        <div class="cart-product-title">Sweet Product</div>
-                        <div class="cart-price">₹25.25</div>
-                        <div class="for-kg"></div>
-                        <input type="number" value="1" class="cart-quantity">
-                    </div>
-                     Remove Cart
-                    <i class="bx bxs-trash-alt cart-remove" ></i>
-                </div> -->
