@@ -1,15 +1,69 @@
-@media screen and (max-width: 360px) {
-    .next-button {
-        display: none;
-        width: 0px;
-    }
+/* media for 320px */
 
+
+@media screen and (max-width: 320px) {
     .highlighted-product-list {
         width: 100%;
     }
 
     .HL-product {
         position: relative;
+        left: 240px;
+    }
+
+    .HL-product img {
+        display: inline-block;
+        width: 60px;
+    }
+
+    .HL-product p {
+        font-size: 9px;
+    }
+
+    .dot {
+        width: 10px;
+        height: 10px;
+    }
+
+    .text-container h3 {
+        margin-top: 40px;
+        font-size: 30px;
+    }
+
+    .tabs-nav__item {
+        font-size: 7px;
+    }
+
+    .space-for-all-bestseller-for-h2 {
+        font-size: 17px;
+    }
+
+    .first-bestseller-product-list-for-a {
+        margin: 0 15px;
+        left: 504px;
+        height: 200px;
+    }
+
+    .first-bestseller-product-listImage {
+        width: 120px;
+        height: 120px;
+    }
+
+    .about-product img {
+        width: 35px;
+    }
+
+    .about-M-i-I img {
+        height: 35px;
+        width: 76px;
+    }
+}
+
+
+/* media for 360px */
+
+@media screen and (max-width: 360px) {
+    .HL-product {
         left: 270px;
     }
 
@@ -27,6 +81,59 @@
         height: 12px;
     }
 
+    .tabs-nav__item {
+        font-size: 7.5px;
+    }
+
+    .space-for-all-bestseller-for-h2 {
+        font-size: 20px;
+    }
+
+    .first-bestseller-product-list-for-a {
+        margin: 0 10px;
+        left: 534px;
+        height: 230px;
+    }
+
+    .first-bestseller-product-listImage {
+        width: 140px;
+        height: 140px;
+    }
+}
+
+
+/* media for 412px  */
+
+@media screen and (max-width: 412px) {
+    .next-button {
+        display: none;
+        width: 0px;
+    }
+
+    .highlighted-product-list {
+        width: 100%;
+    }
+
+    .HL-product {
+        margin: 0 4px 0 10px;
+        position: relative;
+        left: 202px;
+    }
+
+    .HL-product img {
+        display: inline-block;
+        width: 68px;
+    }
+
+    .HL-product p {
+        font-size: 9px;
+    }
+
+    .dot {
+        width: 12px;
+        height: 12px;
+    }
+
     .text-container h3 {
         margin-top: 45px;
         font-size: 35px;
@@ -34,7 +141,7 @@
 
     .tabs-nav__item {
         margin: 15px 3px;
-        font-size: 7.5px;
+        font-size: 8px;
     }
 
     .space-for-all-bestseller-for-h2 {
@@ -47,16 +154,17 @@
     }
 
     .first-bestseller-product-list-for-a {
-        margin: 0 10px;
+        margin: 0 5px;
         position: relative;
-        left: 534px;
-        height: 230px;
+        left: 340px;
+        height: auto;
+        min-height: 200px;
     }
 
     .first-bestseller-product-listImage {
         display: inline-block;
-        width: 140px;
-        height: 140px;
+        width: 108px;
+        height: 108px;
     }
 
     .product-title {
@@ -97,106 +205,5 @@
     .about-M-i-I img {
         height: 40px;
         width: 87px;
-    }
-}
-
-
-/* media for 320px */
-
-
-@media screen and (max-width: 320px) {
-    .highlighted-product-list {
-        width: 100%;
-    }
-
-    .HL-product {
-        position: relative;
-        left: 240px;
-    }
-
-    .HL-product img {
-        display: inline-block;
-        width: 60px;
-    }
-
-    .HL-product p {
-        font-size: 9px;
-    }
-
-    .dot {
-        width: 10px;
-        height: 10px;
-    }
-
-    .text-container h3 {
-        margin-top: 40px;
-        font-size: 30px;
-    }
-
-    .tabs-nav__item {
-        margin: 15px 3px;
-        font-size: 7px;
-    }
-
-    .space-for-all-bestseller-for-h2 {
-        font-size: 17px;
-    }
-
-    .space-for-bestseller-left-right-Arrow {
-        visibility: collapse;
-        display: none;
-    }
-
-    .first-bestseller-product-list-for-a {
-        margin: 0 15px;
-        position: relative;
-        left: 504px;
-        height: 200px;
-    }
-
-    .first-bestseller-product-listImage {
-        display: inline-block;
-        width: 120px;
-        height: 120px;
-    }
-
-    .product-title {
-        font-size: 13px;
-    }
-
-    .price {
-        font-size: 15px;
-    }
-
-    .about-All-product {
-        padding: 20px 5px;
-    }
-
-    .about-product {
-        width: 45px;
-        height: 80px;
-    }
-
-    .about-product p {
-        padding-top: 10px;
-        height: auto;
-        font-size: 8px;
-    }
-
-    .about-product img {
-        width: 35px;
-    }
-
-    .about-M-i-I {
-        width: auto;
-    }
-
-    .about-M-i-I p {
-        font-size: 8px;
-    }
-
-    .about-M-i-I img {
-        height: 35px;
-        width: 76px;
     }
 }
