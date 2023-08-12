@@ -1,3 +1,475 @@
+/* media for 645px */
+
+
+@media screen and (max-width: 645px) {
+
+    /* Footer Media */
+    .space-for-footer {
+        width: 645px;
+    }
+
+    .universal-footer {
+        padding-top: 25px;
+    }
+
+    .know-us {
+        padding: 0 0 0 10px;
+        margin: 0;
+        width: 150px;
+        height: 200px;
+    }
+
+    .know-us h3 {
+        font-size: 13px;
+    }
+
+    .know-us nav {
+        margin-top: 20px;
+    }
+
+    .know-us nav ul a {
+        font-size: 13px;
+    }
+
+    .terms-cond {
+        margin-bottom: 25px;
+        width: 150px;
+        height: 200px;
+    }
+
+    .terms-cond nav ul a {
+        font-size: 13px;
+    }
+
+    .follow-us {
+        position: relative;
+        top: 211px;
+        right: 435px;
+        margin: 0;
+        width: 164px;
+        height: 160px;
+    }
+
+    .follow-us h3 {
+        height: 20%;
+        font-size: 15px;
+    }
+    .fab-ins {
+        position: relative;
+        top: 30px;
+    }
+
+    .contact {
+        position: relative;
+        bottom: 212px;
+        left: 445px;
+        margin-bottom: 25px;
+        width: 195px;
+        height: 160px;
+    }
+
+    .contact-email {
+        margin-bottom: 15px;
+    }
+
+    .contact-email p {
+        text-align: center;
+        font-size: 13px;
+        margin-bottom: 5px;
+    }
+
+    .contact-email p a {
+        font-size: 13px;
+    }
+
+    .contact-phone-to-quries p {
+        text-align: center;
+        font-size: 13px;
+    }
+
+    .contact-phone-to-quries p a {
+        font-size: 13px;
+    }
+
+    .contact-phone-to-distributor p {
+        text-align: center;
+        font-size: 13px;
+    }
+
+    .contact-phone-to-distributor p a {
+        font-size: 13px;
+    }
+
+    .newsletter {
+        margin: 0;
+        position: relative;
+        top: 0;
+        right: 20px;
+        width: 300px;
+        height: 150px;
+    }
+
+    .newsletter h3 {
+        text-align: center;
+        font-size: 15px;
+        margin-bottom: 20px;
+    }
+
+    .footer-e-mail {
+        width: 300px;
+        height: 40px;
+        font-size: 15px;
+        outline: none;
+        background-color: black;
+        color: white;
+        border: 2px solid rgba(0, 0, 0, 0.87);
+        ;
+    }
+
+    .name-and-copy {
+        margin: 15px 0 10px 0;
+    }
+
+    .footer-name {
+        margin-left: 25px;
+        font-size: 13px;
+    }
+
+    .footer-copy {
+        margin-right: 25px;
+        font-size: 13px;
+    }
+
+
+    /* HEADER MEDIA */
+    .offers-strip p {
+        padding: 7px 0;
+        font-size: 10px;
+    }
+
+    .logo {
+        width: 60px;
+        height: 60px;
+        margin-left: 0px;
+        position: relative;
+        left: calc(100% - 50% - 30px);
+    }
+
+    .logo img {
+        width: 60px;
+        height: 60px;
+    }
+
+    .categories {
+        width: 645px;
+        height: 0px;
+        margin-top: 110px;
+        padding: 0;
+        position: absolute;
+        top: 0;
+        background: rgba(0, 0, 0, 0.7) url('../IMG/whiteBG.jpg');
+        background-size: cover;
+        z-index: 1;
+        border: none;
+        left: -100%;
+        transition: all 0.4s ease-out;
+        background-color: rgba(0, 0, 0, 0.7);
+    }
+
+    .categories.show {
+        left: 0%;
+        height: 100vh;
+        display: block;
+        visibility: visible;
+    }
+
+
+
+    .categories nav {
+        height: 250px;
+        flex-direction: column;
+    }
+
+    .categories nav ul a {
+        font-size: 14px;
+        text-decoration: none;
+        /* color: #fff; */
+        color: #000;
+    }
+
+
+
+
+    .header-icon-list {
+        margin-right: 5px;
+        width: 110px;
+    }
+
+    .search {
+        position: relative;
+        left: 28%;
+    }
+
+    #cart-icon {
+        position: relative;
+        left: -6%;
+    }
+
+    .account {
+        position: relative;
+        right: 460%;
+    }
+
+    .burger {
+        width: 22px;
+        height: 22px;
+        position: relative;
+        right: 522%;
+        cursor: pointer;
+    }
+
+    .burgerLine {
+        margin-top: 3px;
+        width: 22px;
+        height: 3px;
+        background-color: #000;
+        border-radius: 50px;
+    }
+}
+
+
+
+
+
+/* media for 412px */
+
+
+@media screen and (max-width: 412px) {
+
+    /* Footer Media */
+    .space-for-footer {
+        width: 412px;
+    }
+
+    .universal-footer {
+        padding-top: 25px;
+    }
+
+    .know-us {
+        padding: 0 0 0 10px;
+        margin: 0;
+        width: 150px;
+        height: 200px;
+    }
+
+    .know-us h3 {
+        font-size: 13px;
+    }
+
+    .know-us nav {
+        margin-top: 20px;
+    }
+
+    .know-us nav ul a {
+        font-size: 13px;
+    }
+
+    .terms-cond {
+        margin-bottom: 25px;
+        width: 175px;
+        height: 200px;
+    }
+
+    .terms-cond nav ul a {
+        font-size: 13px;
+    }
+
+    .follow-us {
+        margin-bottom: 25px;
+        width: 164px;
+        height: 160px;
+    }
+
+    .follow-us h3 {
+        height: 20%;
+        font-size: 15px;
+    }
+
+    .contact {
+        margin-bottom: 25px;
+        width: 195px;
+        height: 160px;
+    }
+
+    .contact-email {
+        margin-bottom: 15px;
+    }
+
+    .contact-email p {
+        font-size: 13px;
+        margin-bottom: 5px;
+    }
+
+    .contact-email p a {
+        font-size: 13px;
+    }
+
+    .contact-phone-to-quries p {
+        font-size: 13px;
+    }
+
+    .contact-phone-to-quries p a {
+        font-size: 13px;
+    }
+
+    .contact-phone-to-distributor p {
+        font-size: 13px;
+    }
+
+    .contact-phone-to-distributor p a {
+        font-size: 13px;
+    }
+
+    .newsletter {
+        margin: 0 0 0 calc(100% - 50% - 150px);
+        width: 300px;
+        height: 150px;
+    }
+
+    .newsletter h3 {
+        text-align: center;
+        font-size: 15px;
+        margin-bottom: 20px;
+    }
+
+    .footer-e-mail {
+        width: 300px;
+        height: 40px;
+        font-size: 15px;
+        outline: none;
+        background-color: black;
+        color: white;
+        border: 2px solid rgba(0, 0, 0, 0.87);
+        ;
+    }
+
+    .name-and-copy {
+        margin: 15px 0 10px 0;
+    }
+
+    .footer-name {
+        margin-left: 25px;
+        font-size: 13px;
+    }
+
+    .footer-copy {
+        margin-right: 25px;
+        font-size: 13px;
+    }
+
+
+    /* HEADER MEDIA */
+    .offers-strip p {
+        padding: 7px 0;
+        font-size: 11px;
+    }
+
+    .logo {
+        width: 55px;
+        height: 55px;
+        margin-left: 0px;
+        position: relative;
+        left: 43%;
+    }
+
+    .logo img {
+        width: 55px;
+        height: 55px;
+    }
+
+    .categories {
+        width: 412px;
+        height: 0px;
+        margin-top: 105px;
+        padding: 0;
+        position: absolute;
+        top: 0;
+        background: rgba(0, 0, 0, 0.7) url('../IMG/whiteBG.jpg');
+        background-size: cover;
+        z-index: 1;
+        border: none;
+        left: -100%;
+        transition: all 0.4s ease-out;
+        background-color: rgba(0, 0, 0, 0.7);
+    }
+
+    .categories.show {
+        left: 0%;
+        height: 100vh;
+        display: block;
+        visibility: visible;
+    }
+
+
+
+    .categories nav {
+        height: 250px;
+        flex-direction: column;
+    }
+
+    .categories nav ul a {
+        font-size: 14px;
+        text-decoration: none;
+        /* color: #fff; */
+        color: #000;
+    }
+
+
+
+
+    .header-icon-list {
+        margin-right: 5px;
+        width: 110px;
+    }
+
+    .search {
+        position: relative;
+        left: 28%;
+    }
+
+    #cart-icon {
+        position: relative;
+        left: -6%;
+    }
+
+    .account {
+        position: relative;
+        right: 240%;
+    }
+
+    .burger {
+        width: 22px;
+        height: 22px;
+        position: relative;
+        right: 310%;
+        cursor: pointer;
+    }
+
+    .burgerLine {
+        margin-top: 3px;
+        width: 22px;
+        height: 3px;
+        background-color: #000;
+        border-radius: 50px;
+    }
+}
+
+
+
+
+
+
+
 /* media for 320px */
 
 @media screen and (max-width: 320px) {
@@ -244,236 +716,5 @@
 
     .burger {
         right: 265%;
-    }
-}
-
-
-
-
-
-
-
-
-
-/* media for 412px */
-
-
-@media screen and (max-width: 412px) {
-
-    /* Footer Media */
-    .space-for-footer {
-        width: 412px;
-    }
-
-    .universal-footer {
-        padding-top: 25px;
-    }
-
-    .know-us {
-        padding: 0 0 0 10px;
-        margin: 0;
-        width: 150px;
-        height: 200px;
-    }
-
-    .know-us h3 {
-        font-size: 13px;
-    }
-
-    .know-us nav {
-        margin-top: 20px;
-    }
-
-    .know-us nav ul a {
-        font-size: 13px;
-    }
-
-    .terms-cond {
-        margin-bottom: 25px;
-        width: 175px;
-        height: 200px;
-    }
-
-    .terms-cond nav ul a {
-        font-size: 13px;
-    }
-
-    .follow-us {
-        margin-bottom: 25px;
-        width: 164px;
-        height: 160px;
-    }
-
-    .follow-us h3 {
-        height: 20%;
-        font-size: 15px;
-    }
-
-    .contact {
-        margin-bottom: 25px;
-        width: 195px;
-        height: 160px;
-    }
-
-    .contact-email {
-        margin-bottom: 15px;
-    }
-
-    .contact-email p {
-        font-size: 13px;
-        margin-bottom: 5px;
-    }
-
-    .contact-email p a {
-        font-size: 13px;
-    }
-
-    .contact-phone-to-quries p {
-        font-size: 13px;
-    }
-
-    .contact-phone-to-quries p a {
-        font-size: 13px;
-    }
-
-    .contact-phone-to-distributor p {
-        font-size: 13px;
-    }
-
-    .contact-phone-to-distributor p a {
-        font-size: 13px;
-    }
-
-    .newsletter {
-        margin: 0 0 0 calc(100% - 50% - 150px);
-        width: 300px;
-        height: 150px;
-    }
-
-    .newsletter h3 {
-        text-align: center;
-        font-size: 15px;
-        margin-bottom: 20px;
-    }
-
-    .footer-e-mail {
-        width: 300px;
-        height: 40px;
-        font-size: 15px;
-        outline: none;
-        background-color: black;
-        color: white;
-        border: 2px solid rgba(0, 0, 0, 0.87);
-        ;
-    }
-
-    .name-and-copy {
-        margin: 15px 0 10px 0;
-    }
-
-    .footer-name {
-        margin-left: 25px;
-        font-size: 13px;
-    }
-
-    .footer-copy {
-        margin-right: 25px;
-        font-size: 13px;
-    }
-
-
-    /* HEADER MEDIA */
-    .offers-strip p {
-        padding: 7px 0;
-        font-size: 11px;
-    }
-
-    .logo {
-        width: 55px;
-        height: 55px;
-        margin-left: 0px;
-        position: relative;
-        left: 43%;
-    }
-
-    .logo img {
-        width: 55px;
-        height: 55px;
-    }
-
-    .categories {
-        width: 412px;
-        height: 0px;
-        margin-top: 105px;
-        padding: 0;
-        position: absolute;
-        top: 0;
-        background: rgba(0, 0, 0, 0.7) url('../IMG/whiteBG.jpg');
-        background-size: cover;
-        z-index: 1;
-        border: none;
-        left: -100%;
-        transition: all 0.4s ease-out;
-        background-color: rgba(0, 0, 0, 0.7);
-    }
-
-    .categories.show {
-        left: 0%;
-        height: 100vh;
-        display: block;
-        visibility: visible;
-    }
-
-
-
-    .categories nav {
-        height: 250px;
-        flex-direction: column;
-    }
-
-    .categories nav ul a {
-        font-size: 14px;
-        text-decoration: none;
-        /* color: #fff; */
-        color: #000;
-    }
-
-
-
-
-    .header-icon-list {
-        margin-right: 5px;
-        width: 110px;
-    }
-
-    .search {
-        position: relative;
-        left: 28%;
-    }
-
-    #cart-icon {
-        position: relative;
-        left: -6%;
-    }
-
-    .account {
-        position: relative;
-        right: 240%;
-    }
-
-    .burger {
-        width: 22px;
-        height: 22px;
-        position: relative;
-        right: 310%;
-        cursor: pointer;
-    }
-
-    .burgerLine {
-        margin-top: 3px;
-        width: 22px;
-        height: 3px;
-        background-color: #000;
-        border-radius: 50px;
     }
 }
