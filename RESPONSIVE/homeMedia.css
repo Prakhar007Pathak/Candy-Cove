@@ -1,5 +1,5 @@
 /* media for 1440px  */
-@media screen and (max-width: 1440px) {
+/* @media screen and (max-width: 1440px) {
     .highlighted-product-list {
         width: 74%;
     }
@@ -19,7 +19,7 @@
             left: 380px;
             margin: 0 10px;
         } 
-    }
+    } */
     
     /* media for 1280px  */
     
@@ -38,7 +38,7 @@
     
     /* media for 1200px  */
     
-    @media screen and (max-width: 1200px) {
+/*     @media screen and (max-width: 1200px) {
         .HL-now-for-logo {
             margin: 0 7px 0 7px;
             left: 105px;
@@ -55,7 +55,7 @@
             left: 523px;
             margin: 0 12px;
         }
-    }
+    } */
     
     /* media for 645px  */
 
