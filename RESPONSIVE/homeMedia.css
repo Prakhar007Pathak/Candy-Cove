@@ -104,7 +104,7 @@
 
 /* media for 412px  */
 
-@media screen and (max-width: 420px) {
+@media screen and (max-width: 412px) {
     .next-button {
         display: none;
         width: 0px;
