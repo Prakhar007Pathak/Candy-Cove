@@ -258,11 +258,11 @@
 /* media for 412px */
 
 
-@media screen and (max-width: 420px) {
+@media screen and (max-width: 412px) {
 
     /* Footer Media */
     .space-for-footer {
-        width: 420px;
+        width: 412px;
     }
 
     .universal-footer {
