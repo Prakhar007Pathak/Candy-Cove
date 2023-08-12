@@ -35,8 +35,6 @@ main{
     width: 70%;
     height: 100%;
     display: flex;
-    justify-content: center;
-    align-items: center;
     overflow: hidden;
     overflow-x: scroll;
     -ms-overflow-style: none;
@@ -54,6 +52,8 @@ main{
     width: 150px;
     height: auto;   
     margin: 0 10px 0 10px;
+    position: relative;
+    left: -1%;
 }
 .HL-product img{
     border-radius: 100%;
@@ -239,10 +239,8 @@ img {
     width: 100%;
     height: auto;
     margin: 0 0 50px 0px;
-    /* position: absolute; */
     top: 100%;
     right: 10%;
-    /* max-height: 0px; */
     overflow: hidden;
     transition: max-height 0.5s;
 }
@@ -269,12 +267,9 @@ img {
     align-items: center;
 }
 .first-bestseller-product-list{
-    position: relative;
-    left: 0;
-    width: 2400px;
+    width: 100%;
     overflow: hidden;
     display: flex;
-    justify-content: space-around;
     align-items: center;
     overflow-x: scroll;
     -ms-overflow-style: none;
@@ -283,8 +278,8 @@ img {
 }
 .first-bestseller-product-list-for-a{
     position: relative;
-    left: 600px;
-    margin: 0 25px;
+    left: 0%;
+    margin: 0 15px;
     width: 250px;
     height: 350px;
     padding: 8px;
