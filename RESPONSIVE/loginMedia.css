@@ -1,35 +1,177 @@
-@media screen and (max-width: 360px) {
-    main {
-        height: auto;
-    }
+@media screen and (max-width: 1000px) {
 
     .for-h1-of-login {
-        margin-top: 40px;
+        margin-top: 50px;
     }
+
     .for-h1-of-login h1 {
-        font-size: 55px;
-        letter-spacing: -3.15px;
+        font-size: 60px;
     }
+
     .for-p-note-for-filling p {
-        font-size: 12px;
+        font-size: 13px;
     }
+
     .space-for-email {
         margin-top: 50px;
     }
+
     .e-mail {
-        width: 340px;
-        font-size: 17px;
+        width: 45%;
+        height: 42px;
+        font-size: 16px;
     }
+
+    .space-for-password {
+        margin-top: 20px;
+    }
+
     .pass-code {
-        width: 340px;
-        font-size: 17px;
+        width: 45%;
+        height: 42px;
+        font-size: 16px;
     }
+
+    .space-for-submit {
+        margin-top: 15px;
+    }
+
     .submit {
-        width: 340px;
+        width: 45%;
+        height: 42px;
         font-size: 20px;
     }
-    .space-for-footer {
+
+    /* .space-for-footer {
         position: relative;
         top: 60px;
+    } */
+}
+
+@media screen and (max-width: 800px) {
+    .e-mail {
+        width: 50%;
+        height: 38px;
+        font-size: 14px;
+    }
+
+    .pass-code {
+        width: 50%;
+        height: 38px;
+        font-size: 14px;
+    }
+
+    .submit {
+        width: 50%;
+        height: 38px;
+        font-size: 18px;
+    }
+}
+
+@media screen and (max-width: 645px) {
+    .for-p-note-for-filling p {
+        font-size: 12px;
+    }
+
+    .space-for-email {
+        margin-top: 40px;
+    }
+
+    .e-mail {
+        width: 60%;
+        height: 38px;
+        font-size: 14px;
+    }
+
+    .space-for-password {
+        margin-top: 15px;
+    }
+
+    .pass-code {
+        width: 60%;
+        height: 38px;
+        font-size: 14px;
+    }
+
+    .space-for-submit {
+        margin-top: 10px;
+    }
+
+    .submit {
+        width: 60%;
+        height: 38px;
+        font-size: 18px;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .e-mail {
+        width: 70%;
+        height: 38px;
+
+    }
+
+    .pass-code {
+        width: 70%;
+        height: 38px;
+    }
+
+    .submit {
+        width: 70%;
+        height: 35px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .e-mail {
+        width: 76%;
+        height: 38px;
+
+    }
+
+    .pass-code {
+        width: 76%;
+        height: 38px;
+    }
+
+    .submit {
+        width: 76%;
+        height: 35px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .e-mail {
+        width: 85%;
+        height: 38px;
+
+    }
+
+    .pass-code {
+        width: 85%;
+        height: 38px;
+    }
+
+    .submit {
+        width: 85%;
+        height: 35px;
+    }
+}
+
+@media screen and (max-width: 360px) {
+    .e-mail {
+        width: 90%;
+        height: 38px;
+
+    }
+
+    .pass-code {
+        width: 90%;
+        height: 38px;
+    }
+
+    .submit {
+        width: 90%;
+        height: 35px;
     }
 }
