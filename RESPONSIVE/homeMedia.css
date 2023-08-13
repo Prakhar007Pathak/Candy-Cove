@@ -126,6 +126,10 @@
         font-size: 15px;
     }
 
+    .add-cart {
+        right: -41%;
+    }
+
     .about-All-product {
         padding: 20px 5px;
     }
@@ -221,7 +225,9 @@
     .price {
         font-size: 15px;
     }
-
+    .add-cart {
+        right: -30%;
+    }
     .about-All-product {
         padding: 20px 5px;
     }
