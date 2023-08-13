@@ -1,34 +1,246 @@
-@media screen and (max-width: 360px){
+@media screen and (max-width: 1000px) {
     .for-h1-of-login {
-        margin-top: 40px;
+        margin-top: 50px;
     }
     .for-h1-of-login h1 {
-        font-size: 55px;
-        letter-spacing: -3.15px;
+        font-size: 60px;
+    }
+    .for-p-note-for-filling p {
+        font-size: 13px;
     }
     .space-for-both-name {
         margin-top: 50px;
     }
-    .for-both-name{
-        width: 340px;
-    }
     .name {
-        font-size: 17px;
+        width: 45%;
+        height: 42px;
+        font-size: 16px;
     }
+    .space-for-email {
+        margin-top: 20px;
+    }
+
     .e-mail {
-        width: 340px;
-        font-size: 17px;
+        width: 45%;
+        height: 42px;
+        font-size: 16px;
+    }
+    .space-for-phone {
+        margin-top: 20px;
     }
     .phone {
-        width: 340px;
-        font-size: 17px;
+        width: 45%;
+        height: 42px;
+        font-size: 16px;
+    }
+    .space-for-password {
+        margin-top: 20px;
     }
     .pass-code {
-        width: 340px;
-        font-size: 17px;
+        width: 45%;
+        height: 42px;
+        font-size: 16px;
     }
+    .space-for-submit {
+        margin-top: 15px;
+    }
+
     .submit {
-        width: 340px;
+        width: 45%;
+        height: 42px;
         font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .name {
+        width: 50%;
+        height: 38px;
+        font-size: 14px;
+    }
+
+    .e-mail {
+        width: 50%;
+        height: 38px;
+        font-size: 14px;
+
+    }
+    .phone {
+        width: 50%;
+        height: 38px;
+        font-size: 14px;
+
+    }
+
+    .pass-code {
+        width: 50%;
+        height: 38px;
+        font-size: 14px;
+    }
+
+    .submit {
+        width: 50%;
+        height: 38px;
+        font-size: 18px;
+    }
+}
+
+@media screen and (max-width: 645px) {
+    .for-p-note-for-filling p {
+        font-size: 12px;
+    }
+    .space-for-both-name {
+        margin-top: 40px;
+    }
+    .name {
+        width: 60%;
+        height: 38px;
+        font-size: 14px;
+    }
+    .space-for-email {
+        margin-top: 15px;
+    }
+
+    .e-mail {
+        width: 60%;
+        height: 38px;
+        font-size: 14px;
+    }
+    .space-for-phone {
+        margin-top: 15px;
+    }
+    .phone {
+        width: 60%;
+        height: 38px;
+        font-size: 14px;
+    }
+    .space-for-password {
+        margin-top: 15px;
+    }
+
+    .pass-code {
+        width: 60%;
+        height: 38px;
+        font-size: 14px;
+    }
+
+    .space-for-submit {
+        margin-top: 10px;
+    }
+
+    .submit {
+        width: 60%;
+        height: 38px;
+        font-size: 18px;
+    }
+}
+
+
+@media screen and (max-width: 550px) {
+    .name {
+        width: 70%;
+        height: 38px;
+
+    }
+    .e-mail {
+        width: 70%;
+        height: 38px;
+
+    }
+    .phone {
+        width: 70%;
+        height: 38px;
+
+    }
+
+    .pass-code {
+        width: 70%;
+        height: 38px;
+    }
+
+    .submit {
+        width: 70%;
+        height: 35px;
+    }
+}
+@media screen and (max-width: 480px) {
+    .name {
+        width: 76%;
+        height: 38px;
+
+    }
+    .e-mail {
+        width: 76%;
+        height: 38px;
+
+    }
+    .phone {
+        width: 76%;
+        height: 38px;
+
+    }
+
+    .pass-code {
+        width: 76%;
+        height: 38px;
+    }
+
+    .submit {
+        width: 76%;
+        height: 35px;
+    }
+}
+@media screen and (max-width: 400px) {
+    .name {
+        width: 85%;
+        height: 38px;
+    }
+    .e-mail {
+        width: 85%;
+        height: 38px;
+
+    }
+    .phone {
+        width: 85%;
+        height: 38px;
+    }
+
+    .pass-code {
+        width: 85%;
+        height: 38px;
+    }
+
+    .submit {
+        width: 85%;
+        height: 35px;
+    }
+}
+
+
+@media screen and (max-width: 360px) {
+    .name {
+        width: 90%;
+        height: 38px;
+
+    }
+    .e-mail {
+        width: 90%;
+        height: 38px;
+
+    }
+    .phone {
+        width: 90%;
+        height: 38px;
+
+    }
+
+    .pass-code {
+        width: 90%;
+        height: 38px;
+    }
+
+    .submit {
+        width: 90%;
+        height: 35px;
     }
 }
