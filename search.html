@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Product Filter And Search</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css">
+    <link rel="stylesheet" href="CSS/search.css">
+    <link rel="stylesheet" href="RESPONSIVE/searchMedia.css">
+
+</head>
+
+<body>
+    <div class="wrapper">
+        <div id="search-container">
+            <input type="search" id="search-input" placeholder="Search product name here..">
+            <button id="search">Search</button>
+        </div>
+        <div id="buttons">
+            <button class="button-value" onclick="filterProduct('all')">All</button>
+            <button class="button-value" onclick="filterProduct('Topwear')">Product Type 1</button>
+            <button class="button-value" onclick="filterProduct('Bottomwear')">Product Type 2</button>
+            <button class="button-value" onclick="filterProduct('Jacket')">Product Type 3</button>
+            <button class="button-value" onclick="filterProduct('Watch')">Product Type 4</button>
+        </div>
+        <div id="products"></div>
+    </div>
+    <!-- Script -->
+    <script src="SCRIPT/search.js"></script>
+</body>
+
+</html>
