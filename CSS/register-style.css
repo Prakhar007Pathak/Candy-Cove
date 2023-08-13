@@ -9,7 +9,7 @@ main {
 }
 
 .login {
-    width: 50%;
+    width: 100%;
     height: 100%;
     background-color: white;
 }
@@ -17,7 +17,7 @@ main {
 .for-h1-of-login {
     margin-top: 70px;
     width: 100%;
-    height: 15%;
+    height: auto;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -33,7 +33,7 @@ main {
 
 .for-p-note-for-filling {
     width: 100%;
-    height: 40px;
+    height: auto;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -46,83 +46,80 @@ main {
 .space-for-both-name{
     margin-top: 60px;
     width: 100%;
-    height: 10vh;
+    height: auto;
     display: flex;
     justify-content: center;
     align-items: center;
 }
-.for-both-name{
-    width: 500px;
-    height: 100%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
 .name {
-    width: 245px;
-    height: 70%;
+    width: 37%;
+    height: 45px;
     font-size: 18px;
     box-sizing: border-box;
     outline: none;
 }
 .space-for-email {
+    margin-top: 25px;
     width: 100%;
-    height: 10vh;
+    height: auto;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 .e-mail {
-    width: 500px;
-    height: 70%;
+    width: 37%;
+    height: 45px;
     font-size: 18px;
     box-sizing: border-box;
     outline: none;
 }
 .space-for-phone {
+    margin-top: 25px;
     width: 100%;
-    height: 10vh;
+    height: auto;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
 .phone {
-    width: 500px;
-    height: 70%;
+    width: 37%;
+    height: 45px;
     font-size: 18px;
     box-sizing: border-box;
     outline: none;
 }
 
 .space-for-password {
+    margin-top: 25px;
     width: 100%;
-    height: 10vh;
+    height: auto;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
 .pass-code {
-    width: 500px;
-    height: 70%;
+    width: 37%;
+    height: 45px;
     font-size: 18px;
     box-sizing: border-box;
     outline: none;
 }
 
 .space-for-submit {
+    margin-top: 25px;
     width: 100%;
-    height: 10vh;
+    height: auto;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
 .submit {
-    width: 500px;
-    height: 70%;
-    font-size: 20px;
+    width: 37%;
+    height: 45px;
+    font-size: 22px;
     background-color: #ff8700;
     border: white 2px solid;
     box-sizing: border-box;
