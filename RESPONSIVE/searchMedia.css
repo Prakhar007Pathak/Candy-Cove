@@ -1,0 +1,34 @@
+@media screen and (max-width: 800px) {
+    .button-value {
+        padding: .75em 2em;
+    }
+
+    .card {
+        min-width: 220px;
+        min-height: 270px;
+    }
+}
+@media screen and (max-width: 730px) {
+    .button-value {
+        padding: 9px 10px;
+    }
+    #search-container input {
+        width: 50%;
+    }
+}
+@media screen and (max-width: 554px) {
+    #search-container input {
+        width: 60%;
+    }
+    .button-value {
+        padding: 5px 3px;
+    }
+}
+@media screen and (max-width: 481px) {
+    #search-container input {
+        width: 60%;
+    }
+    .button-value {
+        padding: 1px 1px;
+    }
+}
