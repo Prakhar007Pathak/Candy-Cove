@@ -185,7 +185,9 @@
         position: absolute;
         right: 4%;
     }
-
+.cart.active{
+    width: 100%;
+}
     .account {
         width: auto;
         height: auto;
