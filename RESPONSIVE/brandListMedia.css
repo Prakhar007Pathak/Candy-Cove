@@ -1,0 +1,134 @@
+@media screen and (max-width: 1130px) {
+    .brand-logo {
+        width: 145px;
+        height: 145px;
+    }
+
+    .first-brand-product-listImage {
+        width: 150px;
+        height: 150px;
+        display: inline-block;
+    }
+
+    .first-brand-product-list-for-a {
+        width: 167px;
+    }
+
+    .first-brand-product-cart {
+        left: 49%;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .brand-logo {
+        width: 140px;
+        height: 140px;
+    }
+
+    .first-brand-product-listImage {
+        width: 140px;
+        height: 140px;
+        display: inline-block;
+    }
+
+    .first-brand-product-list-for-a {
+        width: 157px;
+    }
+
+    .first-brand-product-cart {
+        left: 45%;
+    }
+}
+
+@media screen and (max-width: 955px) {
+    .mediaofLogoAndheading {
+        display: none;
+    }
+
+    .mediaForh2andLogo {
+        margin: 30px 0 15px 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .brand-logo {
+        margin: 0;
+    }
+
+    .space-for-all-brands-for-h2 {
+        width: auto;
+        padding: 10px 0 5px 0;
+    }
+
+    .first-brand {
+        justify-content: center;
+        gap: 2%;
+    }
+
+    .first-brand-product-listImage {
+        width: 150px;
+        height: 150px;
+        display: inline-block;
+    }
+
+    .first-brand-product-list {
+        justify-content: left;
+    }
+
+    .first-brand-product-list-for-a {
+        width: 167px;
+        position: relative;
+        left: 0;
+    }
+
+    .button-for-DDL {
+        margin: 0;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .brand-logo {
+        width: 125px;
+        height: 125px;
+    }
+
+    .space-for-all-brands-for-h2 {
+        font-size: 23px;
+        padding: 5px 0 0 0;
+    }
+}
+
+@media screen and (max-width: 760px) {
+
+    .button-for-DDL {
+        margin: 0 10px 0 0;
+        width: 75px;
+        height: 32px;
+    }
+
+    .anchorForDDL button {
+        font-size: 11px;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .brand-logo {
+        width: 110px;
+        height: 110px;
+    }
+
+    .space-for-all-brands-for-h2 {
+        font-size: 21px;
+    }
+
+    .first-brand-product-list-for-a {
+        width: 157px;
+    }
+
+    .first-brand-product-listImage {
+        width: 140px;
+        height: 140px;
+    }
+}
