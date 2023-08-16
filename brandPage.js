@@ -1,84 +1,3 @@
-// BRAND BOX FIRST 
-let showMoreFirst = document.querySelector("#moreFirstProducts");
-let productPageFirst = document.querySelector(".customize-temp-for-first-brand");
-let closeMoreFirst = document.querySelector("#closeFirstProducts");
-
-// OPEN BRAND BOX
-showMoreFirst.onclick = () => {
-    productPageFirst.classList.add('active');
-};
-// CLOSE BRAND BOX
-closeMoreFirst.onclick = () => {
-    productPageFirst.classList.remove('active');
-
-    customBoxes.forEach(function (button) {
-        button.classList.remove("show");
-
-    });
-    checkBoxesForFirstBox.forEach(function (checkbox) {
-        checkbox.classList.remove("show");
-
-    });
-    checkBoxesForSecondBox.forEach(function (checkbox) {
-        checkbox.classList.remove("show");
-
-    });
-    checkBoxesForThirdBox.forEach(function (checkbox) {
-        checkbox.classList.remove("show");
-
-    });
-};
-
-
-
-// // BRAND BOX SECOND
-// let showMoreSecond = document.querySelector("#moreSecondProducts");
-// let productPageSecond = document.querySelector(".customize-temp-for-second-brand");
-// let closeMoreSecond = document.querySelector("#closeSecondProducts");
-
-// // OPEN BRAND BOX
-// showMoreSecond.onclick = () => {
-//     productPageSecond.classList.add('active');
-// };
-// // CLOSE BRAND BOX
-// closeMoreSecond.onclick = () => {
-//     productPageSecond.classList.remove('active');
-// };
-
-
-// // BRAND BOX THIRD
-// let showMoreThird = document.querySelector("#moreThirdProducts");
-// let productPageThird = document.querySelector(".customize-temp-for-third-brand");
-// let closeMoreThird = document.querySelector("#closeThirdProducts");
-
-// // OPEN BRAND BOX
-// showMoreThird.onclick = () => {
-//     productPageThird.classList.add('active');
-// };
-// // CLOSE BRAND BOX
-// closeMoreThird.onclick = () => {
-//     productPageThird.classList.remove('active');
-// };
-
-
-// // BRAND BOX FOURTH
-// let showMoreFourth = document.querySelector("#moreFourthProducts");
-// let productPageFourth = document.querySelector(".customize-temp-for-fourth-brand");
-// let closeMoreFourth = document.querySelector("#closeFourthProducts");
-
-// // OPEN BRAND BOX
-// showMoreFourth.onclick = () => {
-//     productPageFourth.classList.add('active');
-// };
-// // CLOSE BRAND BOX
-// closeMoreFourth.onclick = () => {
-//     productPageFourth.classList.remove('active');
-// };
-
-
-
-
-
 // CUSTOMIZATION BUTTON WORK
 
 let customBtn = document.getElementById("customizationButton");
@@ -133,20 +52,17 @@ showCheckForFirstBox.addEventListener("click", function () {
         });
         checkBoxesForSecondBox.forEach(function (checkbox) {
             checkbox.classList.remove("show");
-
         });
         checkBoxesForThirdBox.forEach(function (checkbox) {
             checkbox.classList.remove("show");
-
         });
-        // checkBoxesForFirstBox = alert("You Can Select 4 Products");
     }
     else {
         checkBoxesForFirstBox.forEach(function (checkbox) {
             checkbox.classList.remove("show");
-
         });
     }
+    // checkBoxesForThirdBox = alert("You Can Select 4 Products");
 });
 // Function to limit checkbox selection for first box
 function firstLimitCheckboxSelection() {
@@ -167,7 +83,6 @@ function firstLimitCheckboxSelection() {
             checkBoxesForFirstBox[i].disabled = false;
         }
     }
-    // updatetotal();
 }
 function firstHandleCheckboxSelection(checkbox) {
     var productImage = checkbox.getAttribute('data-image');
@@ -175,31 +90,22 @@ function firstHandleCheckboxSelection(checkbox) {
     var selectedProductImages = document.querySelectorAll('.sub-partitions-for-four-parts-of-thousand-gram img');
 
     if (checkbox.checked) {
-        // Create an image element
         var image = document.createElement('img');
         image.src = productImage;
         image.width = 80;
         image.height = 80;
 
-        // Check if there are any available custom boxes
         for (var i = 0; i < customBoxes.length; i++) {
             var customBox = customBoxes[i];
             var customBoxImage = customBox.querySelector('img');
 
-            // If the current custom box is empty, add the image to it
             if (!customBoxImage) {
-                // Clear existing content in the custom box
                 customBox.innerHTML = '';
-
-                // Append the image to the custom box
                 customBox.appendChild(image);
-
-                // Exit the loop once an empty custom box is found
                 break;
             }
         }
     } else {
-        // Remove the image from the corresponding custom box
         for (var i = 0; i < selectedProductImages.length; i++) {
             var selectedProductImage = selectedProductImages[i];
             if (selectedProductImage.src === productImage) {
@@ -210,53 +116,26 @@ function firstHandleCheckboxSelection(checkbox) {
         }
     }
 }
+// total price for 1st box 
+const productCheckboxes = document.querySelectorAll('.firstBoxAllProductsCheck');
+const totalPriceElement = document.getElementById('total-price-customization-boxes-for-first');
 
+productCheckboxes.forEach(function (checkbox) {
+    checkbox.addEventListener('change', calculateTotalPrice);
+});
 
-// function firstHandleCheckboxSelection(checkbox) {
-//     var productPrice = checkbox.getAttribute('data-price');
-//     var customBoxes = document.querySelectorAll('.total-price-customization-boxes-for-first');
-//     var selectedProductPrice = document.querySelectorAll('.total-price-customization-boxes-for-first p');
+function calculateTotalPrice() {
+    let totalPrice = 0;
 
-//     if (checkbox.checked) {
-//         // Create an p element
-//         var price = document.createElement('p');
-//         price.innerHTML = productPrice;
-
-//         // Check if there are any available custom boxes
-//         for (var i = 0; i < customBoxes.length; i++) {
-//             var customBox = customBoxes[i];
-//             var customBoxPrice = customBox.querySelector('p');
-
-//             // If the current custom box is empty, add the image to it
-//             if (!customBoxPrice) {
-//                 // Clear existing content in the custom box
-//                 customBox.innerHTML = '';
-//                 // Append the image to the custom box
-//                 customBox.appendChild(price);
-
-//                 // Exit the loop once an empty custom box is found
-//                 break;
-//             }
-//         }
-//     } else {
-//         // Remove the image from the corresponding custom box
-//         for (var i = 0; i < selectedProductPrice.length; i++) {
-//             var selectedProductPrice = selectedProductPrice[i];
-//             if (selectedProductPrice.innerHTML === productPrice) {
-//                 var customBox = selectedProductPrice.parentNode;
-//                 customBox.innerHTML = '<p>₹0</p>';
-//                 break;
-//             }
-//         }
-//     }
-
-// }
-
-
-
-
-
-
+    productCheckboxes.forEach(function (checkbox) {
+        if (checkbox.checked) {
+            const productPrice = parseInt(checkbox.dataset.price);
+            price = productPrice / 4;
+            totalPrice += price;
+        }
+    });
+    totalPriceElement.textContent = '₹' + totalPrice;
+}
 
 
 
@@ -292,6 +171,7 @@ showCheckForSecondBox.addEventListener("click", function () {
 
         });
     }
+    // checkBoxesForThirdBox = alert("You Can Select 2 Products");
 });
 // Function to limit checkbox selection for second box
 function secondLimitCheckboxSelection() {
@@ -319,31 +199,22 @@ function secondHandleCheckboxSelection(checkbox) {
     var selectedProductImages = document.querySelectorAll('.sub-partitions-for-two-parts-of-thousand-gram img');
 
     if (checkbox.checked) {
-        // Create an image element
         var image = document.createElement('img');
         image.src = productImage;
         image.width = 80;
         image.height = 80;
 
-        // Check if there are any available custom boxes
         for (var i = 0; i < customBoxes.length; i++) {
             var customBox = customBoxes[i];
             var customBoxImage = customBox.querySelector('img');
 
-            // If the current custom box is empty, add the image to it
             if (!customBoxImage) {
-                // Clear existing content in the custom box
                 customBox.innerHTML = '';
-
-                // Append the image to the custom box
                 customBox.appendChild(image);
-
-                // Exit the loop once an empty custom box is found
                 break;
             }
         }
     } else {
-        // Remove the image from the corresponding custom box
         for (var i = 0; i < selectedProductImages.length; i++) {
             var selectedProductImage = selectedProductImages[i];
             if (selectedProductImage.src === productImage) {
@@ -354,6 +225,27 @@ function secondHandleCheckboxSelection(checkbox) {
         }
     }
 }
+// total price for 2nd box 
+const productCheckboxesSecond = document.querySelectorAll('.secondBoxAllProductsCheck');
+const totalPriceElementSecond = document.getElementById('total-price-customization-boxes-for-second');
+
+productCheckboxesSecond.forEach(function (checkbox) {
+    checkbox.addEventListener('change', calculateTotalPriceSecond);
+});
+
+function calculateTotalPriceSecond() {
+    let totalPriceSecond = 0;
+
+    productCheckboxesSecond.forEach(function (checkbox) {
+        if (checkbox.checked) {
+            const productPrice = parseInt(checkbox.dataset.price);
+            price = productPrice / 2;
+            totalPriceSecond += price;
+        }
+    });
+    totalPriceElementSecond.textContent = '₹' + totalPriceSecond;
+}
+
 
 // CLICK ON BOXES TO OPEN CHECKBOX FOR BOX THIRD
 
@@ -377,14 +269,14 @@ showCheckForThirdBox.addEventListener("click", function () {
             checkbox.classList.remove("show");
 
         });
-        // checkBoxesForThirdBox = alert("You Can Select 4 Products");
     }
     else {
         checkBoxesForThirdBox.forEach(function (checkbox) {
             checkbox.classList.remove("show");
-
+            
         });
     }
+    // checkBoxesForThirdBox = alert("You Can Select 4 Products");
 });
 // Function to limit checkbox selection for third box
 function thirdLimitCheckboxSelection() {
@@ -412,31 +304,24 @@ function thirdHandleCheckboxSelection(checkbox) {
     var selectedProductImages = document.querySelectorAll('.sub-partitions-for-four-parts-of-two-thousand-gram img');
 
     if (checkbox.checked) {
-        // Create an image element
         var image = document.createElement('img');
         image.src = productImage;
         image.width = 80;
         image.height = 80;
 
-        // Check if there are any available custom boxes
         for (var i = 0; i < customBoxes.length; i++) {
             var customBox = customBoxes[i];
             var customBoxImage = customBox.querySelector('img');
 
-            // If the current custom box is empty, add the image to it
             if (!customBoxImage) {
-                // Clear existing content in the custom box
                 customBox.innerHTML = '';
 
-                // Append the image to the custom box
                 customBox.appendChild(image);
 
-                // Exit the loop once an empty custom box is found
                 break;
             }
         }
     } else {
-        // Remove the image from the corresponding custom box
         for (var i = 0; i < selectedProductImages.length; i++) {
             var selectedProductImage = selectedProductImages[i];
             if (selectedProductImage.src === productImage) {
@@ -448,88 +333,33 @@ function thirdHandleCheckboxSelection(checkbox) {
     }
 
 }
+// total price for 3st box 
+const productCheckboxesThird = document.querySelectorAll('.thirdBoxAllProductsCheck');
+const totalPriceElementfThird = document.getElementById('total-price-customization-boxes-for-third');
 
+productCheckboxesThird.forEach(function (checkbox) {
+    checkbox.addEventListener('change', calculateTotalPriceThird);
+});
 
+function calculateTotalPriceThird() {
+    let totalPriceforThird = 0;
 
-
-
-// // var customBoxes = document.querySelectorAll(".first-list-of-custom-brand-product-for-a")[0];
-// // var selectedProductImages = customBoxes.querySelectorAll(".first-list-of-custom-brand-product-for-a a img");
-// var selectedProductPrice = document.querySelectorAll('.total-price-customization-boxes-for-first p');
-
-// //  update total
-function updatetotal(checkbox) {
-    var productPrice = checkbox.getAttribute('data-price');
-    var priceElement = document.querySelector('.total-price-customization-boxes-for-first');
-
-    if (checkbox.checked) {
-        var price = document.createElement('p');
-        price.classList.add(".total-price-customization-boxes-for-first");
-        price.innerHTML = productPrice;
-
-
-        var total = 0;
-        for (var i = 0; i < priceElement.length; i++) {
-            priceElement.innerHTML = productPrice;
-            price = parseFloat(priceElement.innerText.replace("₹", ""));
-            total = total + price;
+    productCheckboxesThird.forEach(function (checkbox) {
+        if (checkbox.checked) {
+            const productPriceThird = parseInt(checkbox.dataset.price);
+            price = productPriceThird / 4;
+            totalPriceforThird += price;
         }
-    }
-        //   if price contain some cents value
-        total = Math.round(total * 100) / 100;
-
-    document.querySelector(".total-price-customization-boxes-for-first p")[0].innerText = '₹' + total;
+    });
+    totalPriceElementfThird.textContent = '₹' + totalPriceforThird;
 }
 
-
-
-
-
-
-
-
-
-
-// window.onload = function() {
-//     var checkboxes = document.querySelectorAll("firstBoxAllProductsCheck");
-//     for (var i = 0; i < checkboxes.length; i++) {
-//         checkboxes.checked = !checkboxes.checked;
-//     }
-// };
-
-
-
-// function firstHandleCheckboxSelection(checkbox) {
-
-//     var productPrice = checkbox.getAttribute('data-price');
-//     var customBoxes = document.querySelectorAll('.total-price-customization-boxes-for-first');
-//     var selectedProductPrice = document.querySelectorAll('.total-price-customization-boxes-for-first p');
-
-
-//     if (checkbox.checked) {
-//         var price = document.createElement('p');
-//         price.innerHTML = productPrice;
-
-//         for (var i = 0; i < customBoxes.length; i++) {
-//         var customBox = customBoxes[i];
-//         var customBoxPrice = customBox.querySelector('p');
-
-//         if (!customBoxPrice) {
-//             customBox.innerHTML = '';
-//             customBox.appendChild(price);
-//             break;
-//         }
-//         }
-//     } else {
-//         for (var i = 0; i < selectedProductPrice.length; i++) {
-//             var selectedProductPrice = selectedProductPrice[i];
-//             if (selectedProductPrice.innerHTML === productPrice) {
-//                 var customBox = selectedProductPrice.parentNode;
-//                 customBox.innerHTML = '<p>₹0</p>';
-//                 break;
-//             }
-//         }
-//     }
-
-
+function changeColor(firstBox){
+    firstBox.classList.toggle("changeColor");
+}
+// function changeColor(secondBox){
+//     secondBox.classList.toggle("changeColor");
+// }
+// function changeColor(thirdBox){
+//     thirdBox.classList.toggle("changeColor");
 // }
