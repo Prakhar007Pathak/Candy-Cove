@@ -1,14 +1,88 @@
-@media screen and (max-width: 360px) {
-    .space-for-footer {
-        position: relative;
-        top: 1500px;/* 1900 */
-        width: 360px;
+@media screen and (max-width: 1100px) {
+    .ul-of-img-selector li {
+        width: auto;
+        height: auto;
     }
-    main{
-        width: 360px;
+
+    .ul-of-img-selector li a img {
+        display: inline-block;
+        width: 80px;
+        height: 80px;
+    }
+
+    .name-and-prize h2 {
+        text-align: left;
+    }
+
+    .name-and-prize p {
+        text-align: left;
+    }
+
+    .main-right-product hr {
+        width: 80%;
+    }
+
+    .imgBox img {
+        width: 350px;
+        height: 350px;
+    }
+}
+
+@media screen and (max-width: 955px) {
+    .name-and-prize h2 {
+        font-size: 27px;
+    }
+
+    .ul-of-img-selector li a img {
+        display: inline-block;
+        width: 75px;
+        height: 75px;
+    }
+
+    .main-right-product hr {
+        width: 80%;
+    }
+
+    .imgBox img {
+        width: 300px;
+        height: 300px;
+    }
+
+    .for-chooseing-flavours p {
+        font-size: 22px;
+    }
+
+
+    .bottom-main-above-hr {
+        width: 94%;
+    }
+}
+
+@media screen and (max-width: 855px) {
+    .space-for-footer {
+        position: absolute;
+        top: 2150px;
+        width: 100%;
+    }
+
+    .main-right-product hr {
+        width: 450px;
+    }
+
+    .bottom-main-above-hr {
+        width: 550px;
+        position: relative;
+        top: 1650px;
+        left: 0%;
+        margin: 0 0 0 calc(100% - 50% - 275px);
+    }
+
+    main {
+        width: 100%;
         position: relative;
         top: 0px;
     }
+
     .second-main {
         display: block;
     }
@@ -21,6 +95,187 @@
         width: 100%;
         display: block;
         height: auto;
+    }
+
+    .imgBox {
+        margin: 0;
+        width: auto;
+        height: auto;
+        margin: 5px 0 10px calc(100% - 50% - 225px);
+        position: absolute;
+        top: 0;
+    }
+
+    .imgBox img {
+        margin: 0;
+        width: 450px;
+        height: 450px;
+    }
+
+    .ul-of-img-selector {
+        width: 360px;
+        position: absolute;
+        top: 465px;
+        gap: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 15px 0 10px calc(100% - 50% - 180px);
+    }
+
+    .ul-of-img-selector li {
+        width: 75px;
+        height: 75px;
+    }
+
+    .main-right-product {
+        position: absolute;
+        top: 555px;
+        width: 460px;
+        margin: 0 0 0 calc(100% - 50% - 230px);
+    }
+
+    .name-and-prize h2 {
+        font-size: 23px;
+        text-align: left;
+    }
+
+    .class-for-media-hr {
+        width: calc(100% - 50% - 180px);
+        position: absolute;
+        top: 0px;
+    }
+
+    .name-and-prize p {
+        font-size: 20px;
+    }
+
+    .for-chooseing-flavours p {
+        font-size: 20px;
+    }
+
+    .flavours-name {
+        margin-top: 20px;
+    }
+
+    .add-to-cart {
+        padding: 0;
+        margin: 30px 0 20px calc(100% - 50% - 200px);
+    }
+
+    .add-cart-button {
+        height: 45px;
+    }
+
+    .buy-now {
+        padding: 0;
+        margin: 30px 0 20px calc(100% - 50% - 200px);
+    }
+
+    .buy-now form {
+        width: auto;
+        height: auto;
+    }
+
+    .buy-now form {
+        width: 400px;
+        height: 45px;
+    }
+
+    .bottom-main {
+        width: 100%;
+        height: auto;
+        position: relative;
+        top: 1625px;
+    }
+
+    .main-heading-of-like-products {
+        font-size: 23px;
+    }
+
+    .space-for-like-products-left-right-Arrow {
+        visibility: hidden;
+        display: none;
+    }
+
+    .like-products-list {
+        width: 100%;
+    }
+
+    .like-products-list-for-a {
+        margin: 0 15px;
+        height: auto;
+        max-height: 300px;
+    }
+
+    .like-products-listImage {
+        width: 160px;
+        height: 160px;
+    }
+
+    .product-title {
+        font-size: 13px;
+    }
+
+    .price {
+        font-size: 17px;
+    }
+
+    .add-cart {
+        font-size: 18px;
+        right: -50%;
+    }
+
+}
+
+@media screen and (max-width: 480px) {
+    .imgBox {
+        margin: 5px 0 10px calc(100% - 50% - 200px);
+    }
+
+    .imgBox img {
+        width: 400px;
+        height: 400px;
+    }
+
+    .ul-of-img-selector {
+        width: 360px;
+        top: 405px;
+    }
+
+    .ul-of-img-selector li {
+        width: 70px;
+        height: 70px;
+    }
+
+    .ul-of-img-selector li a img {
+        width: 70px;
+        height: 70px;
+    }
+
+    .main-right-product {
+        top: 490px;
+    }
+
+    .main-right-product hr {
+        width: 92%;
+    }
+
+    .bottom-main-above-hr {
+        width: 92%;
+        top: 1610px;
+        left: 4%;
+        margin: 0;
+    }
+
+    .bottom-main {
+        top: 1590px;
+    }
+}
+
+@media screen and (max-width: 360px) {
+    .space-for-footer {
+        top: 1920px;
     }
 
     .imgBox {
@@ -37,25 +292,15 @@
     }
 
     .ul-of-img-selector {
-        width: 360px;
-        position: absolute;
+        width: 100%;
         top: 320px;
-        gap: 10px;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        margin: 15px 0 10px calc(100% - 50% - 180px);
-    }
-
-    .ul-of-img-selector li {
-        width: 70px;
-        height: 70px;
+        margin: 15px 0 10px 0;
     }
 
     .main-right-product {
-        position: absolute;
+        margin: 0;
         top: 410px;
-        width: 360px;
+        width: 100%;
     }
 
     .name-and-prize h2 {
@@ -74,65 +319,74 @@
     }
 
     .for-chooseing-flavours p {
-        font-size: 17px;
+        font-size: 16px;
     }
 
-    .flavours-name {
-        margin-top: 20px;
+    .flav-name {
+        width: 110px;
+        height: 40px;
+    }
+
+    .second-flavour {
+        margin-left: 30px;
+    }
+
+    .fourth-flavour {
+        margin-left: 30px;
+    }
+
+    .flav-name a p {
+        font-size: 13px;
     }
 
     .add-to-cart {
         padding: 0;
+        margin: 0 0 0 calc(100% - 50% - 150px);
     }
 
-    .add-to-cart button {
-        width: 320px;
+    .add-cart-button {
+        width: 300px;
         height: 40px;
-    }
-
-    .add-to-cart button input {
         font-size: 15px;
         text-align: center;
     }
 
     .buy-now {
         padding: 0;
+        margin: 15px 0 0 calc(100% - 50% - 150px);
     }
 
     .buy-now form {
-        width: 320px;
+        width: auto;
+        height: auto;
+    }
+
+    .buy-now form input {
+        width: 300px;
         height: 40px;
     }
 
+    .class-for-media-sec-hr {
+        top: 20px;
+    }
+
     .bottom-main-above-hr {
-        width: calc(100% - 50% - 180px);
-        position: absolute;
-        top: 1485px;
+        top: 1470px;
     }
 
     .bottom-main {
         width: 360px;
         height: auto;
         position: relative;
-        top: 1500px;
+        top: 1440px;
     }
-    .main-heading-of-like-products{
+
+    .main-heading-of-like-products {
         font-size: 20px;
-    }
-
-    .space-for-like-products-left-right-Arrow {
-        visibility: hidden;
-        display: none;
-    }
-
-    .like-products-list {
-        width: 100%;
     }
 
     .like-products-list-for-a {
         margin: 0 15px;
-        position: relative;
-        left: 612px;
         height: 250px;
     }
 
@@ -140,9 +394,11 @@
         width: 150px;
         height: 150px;
     }
-    .product-title{
+
+    .product-title {
         font-size: 13px;
     }
+
     .price {
         font-size: 15px;
     }
@@ -150,5 +406,39 @@
     .add-cart {
         font-size: 18px;
     }
+}
 
+@media screen and (max-width: 320px) {
+    .imgBox img {
+        width: 280px;
+        height: 280px;
+    }
+
+    .name-and-prize h2 {
+        font-size: 18px;
+    }
+
+    .name-and-prize p {
+        font-size: 16px;
+    }
+
+    .for-chooseing-flavours p {
+        font-size: 15px;
+    }
+
+    .add-to-cart {
+        margin: 0 0 0 calc(100% - 50% - 140px);
+    }
+
+    .add-cart-button {
+        width: 280px;
+    }
+    .buy-now {
+        margin: 0 0 0 calc(100% - 50% - 140px);
+    }
+
+    .buy-now form input {
+        margin: 15px 0 10px 0;
+        width: 280px;
+    }
 }
