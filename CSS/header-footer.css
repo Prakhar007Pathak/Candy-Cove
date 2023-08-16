@@ -11,6 +11,9 @@ header {
     width: 100%;
     height: auto;
     background-color: rgb(231, 228, 228);
+    position: sticky;
+    top: 0;
+    z-index: 1;
 }
 
 .header-offers-strip {
@@ -148,7 +151,7 @@ header {
 .cart.active {
     display: block;
     right: 0;
-    top: 110px;
+    top: 100px;
     z-index: 1;
     background-color: #fff;
 }
