@@ -1,34 +1,505 @@
-@media screen and (max-width: 800px) {
-    .button-value {
-        padding: .75em 2em;
+/* media for 645px */
+@media screen and (max-width: 645px) {
+
+    /* Footer Media */
+    .space-for-footer {
+        width: 100%;
     }
 
-    .card {
-        min-width: 220px;
-        min-height: 270px;
+    .universal-footer {
+        padding-top: 25px;
+    }
+
+    .know-us {
+        margin: 0;
+        width: 130px;
+        height: 200px;
+    }
+
+    .know-us h3 {
+        font-size: 13px;
+    }
+
+    .know-us nav {
+        margin-top: 20px;
+    }
+
+    .know-us nav ul a {
+        font-size: 13px;
+    }
+
+    .terms-cond {
+        width: 140px;
+        height: 200px;
+    }
+
+    .terms-cond nav ul a {
+        font-size: 13px;
+    }
+
+    .follow-us {
+        width: 164px;
+        height: 200px;
+    }
+
+    .follow-us h3 {
+        height: 20%;
+        font-size: 15px;
+    }
+
+    .contact {
+        width: 195px;
+        height: 200px;
+    }
+
+    .contact-email {
+        margin-bottom: 15px;
+    }
+
+    .contact-email p {
+        font-size: 13px;
+        margin-bottom: 5px;
+    }
+
+    .contact-email p a {
+        font-size: 13px;
+    }
+
+    .contact-phone-to-quries p {
+        font-size: 13px;
+    }
+
+    .contact-phone-to-quries p a {
+        font-size: 13px;
+    }
+
+    .contact-phone-to-distributor p {
+        font-size: 13px;
+    }
+
+    .contact-phone-to-distributor p a {
+        font-size: 13px;
+    }
+
+    .newsletter {
+        width: 300px;
+        height: 200px;
+    }
+
+    .newsletter h3 {
+        text-align: center;
+        font-size: 15px;
+        margin-bottom: 20px;
+    }
+
+    .footer-e-mail {
+        width: 300px;
+        height: 40px;
+        font-size: 15px;
+        outline: none;
+        background-color: black;
+        color: white;
+        border: 2px solid rgba(0, 0, 0, 0.87);
+        ;
+    }
+
+    .footer-name {
+        margin-left: 25px;
+        font-size: 13px;
+    }
+
+    .footer-copy {
+        margin-right: 25px;
+        font-size: 13px;
+    }
+
+
+    /* HEADER MEDIA */
+    .offers-strip p {
+        padding: 7px 0;
+        font-size: 10px;
+    }
+
+    .logo {
+        width: 60px;
+        height: 60px;
+        margin-left: 0px;
+        position: relative;
+        left: calc(100% - 50% - 30px);
+    }
+
+    .logo img {
+        width: 60px;
+        height: 60px;
+    }
+
+    .categories {
+        width: 100%;
+        height: 0px;
+        margin-top: 100px;
+        padding: 0;
+        position: absolute;
+        top: 0;
+        background: rgba(0, 0, 0, 0.7) url('../IMG/whiteBG.jpg');
+        background-size: cover;
+        z-index: 1;
+        border: none;
+        left: -100%;
+        transition: all 0.4s ease-out;
+        background-color: rgba(0, 0, 0, 0.7);
+    }
+
+    .categories.show {
+        left: 0%;
+        height: 100vh;
+        display: block;
+        visibility: visible;
+    }
+
+    .categories nav {
+        height: 250px;
+        flex-direction: column;
+    }
+
+    .categories nav ul a {
+        font-size: 14px;
+        text-decoration: none;
+        color: #000;
+    }
+
+    .header-icon-list {
+        margin-right: 5px;
+        width: 110px;
+    }
+
+    .search {
+        width: auto;
+        height: auto;
+        position: absolute;
+        right: 12%;
+    }
+
+    #cart-icon {
+        width: auto;
+        height: auto;
+        position: absolute;
+        right: 4%;
+    }
+.cart.active{
+    width: 100%;
+}
+    .account {
+        width: auto;
+        height: auto;
+        position: absolute;
+        left: 12%;
+    }
+
+    .burger {
+        width: 22px;
+        height: 22px;
+        position: absolute;
+        left: 4%;
+        cursor: pointer;
+    }
+
+    .burgerLine {
+        margin-top: 3px;
+        width: 22px;
+        height: 3px;
+        background-color: #000;
+        border-radius: 50px;
     }
 }
-@media screen and (max-width: 730px) {
-    .button-value {
-        padding: 9px 10px;
+
+
+
+/* media for 480px */
+@media screen and (max-width: 480px) {
+    .account {
+        left: 14%;
     }
-    #search-container input {
-        width: 50%;
+
+    .search {
+        right: 14%;
+    }
+
+    .contact {
+        margin: 20px 0 0 0;
+    }
+
+    .follow-us {
+        margin: 20px 0 0 0;
+    }
+
+    .newsletter {
+        margin: auto;
     }
 }
-@media screen and (max-width: 554px) {
-    #search-container input {
-        width: 60%;
+
+/* media for 412px */
+@media screen and (max-width: 412px) {
+
+    /* footer media */
+    .know-us {
+        width: 120px;
+        height: 160px;
     }
-    .button-value {
-        padding: 5px 3px;
+
+    .know-us h3 {
+        font-size: 12px;
+    }
+
+    .know-us nav ul a {
+        font-size: 12px;
+    }
+
+    .terms-cond {
+        width: 120px;
+        height: 160px;
+    }
+
+    .terms-cond nav ul a {
+        font-size: 12px;
+    }
+
+    .know-us nav ul {
+        padding: 5px 0 5px 0;
+    }
+
+    .terms-cond nav ul {
+        padding: 5px 0 5px 0;
+    }
+
+    .contact {
+        width: 175px;
+        height: 160px;
+        margin: 25px 0 0 0;
+    }
+
+    .contact-email {
+        margin-bottom: 10px;
+    }
+
+    .contact-email p {
+        font-size: 12px;
+        margin-bottom: 3px;
+    }
+
+    .contact-email p a {
+        font-size: 12px;
+    }
+
+    .contact-phone-to-quries {
+        margin-bottom: 10px;
+    }
+
+    .contact-phone-to-quries p {
+        font-size: 12px;
+        margin-bottom: 3px;
+    }
+
+    .contact-phone-to-quries p a {
+        font-size: 12px;
+    }
+
+    .contact-phone-to-distributor p {
+        font-size: 12px;
+        margin-bottom: 3px;
+    }
+
+    .contact-phone-to-distributor p a {
+        font-size: 12px;
+    }
+
+    .follow-us {
+        height: 160px;
+        margin: 25px 0 0 0;
+    }
+
+    .newsletter {
+        height: 160px;
+    }
+
+    .newsletter h3 {
+        font-size: 14px;
+        margin-bottom: 15px;
+    }
+
+    .footer-name {
+        margin-left: 20px;
+        font-size: 12px;
+    }
+
+    .footer-copy {
+        margin-right: 20px;
+        font-size: 12px;
+    }
+
+    /* HEADER MEDIA */
+    .logo {
+        width: 55px;
+        height: 55px;
+    }
+
+    .logo img {
+        width: 55px;
+        height: 55px;
     }
 }
-@media screen and (max-width: 481px) {
-    #search-container input {
-        width: 60%;
+
+/* media for 360px */
+@media screen and (max-width: 360px) {
+
+    /* Footer Media */
+    .follow-us {
+        width: 160px;
     }
-    .button-value {
-        padding: 1px 1px;
+
+    .newsletter h3 {
+        font-size: 14px;
+        margin-bottom: 20px;
     }
+
+
+    /* HEADER MEDIA */
+    .offers-strip p {
+        font-size: 10px;
+    }
+
+    .logo {
+        width: 50px;
+        height: 50px;
+    }
+
+    .logo img {
+        width: 50px;
+        height: 50px;
+    }
+
+    .search {
+        right: 15%;
+    }
+
+    #cart-icon {
+        right: 4%;
+    }
+
+    .account {
+        left: 15%;
+    }
+
+    .burger {
+        left: 4%;
+    }
+}
+
+/* media for 356px */
+@media screen and (max-width: 356px) {
+    .contact {
+        padding: 20px 0;
+        margin: auto;
+    }
+
+    .follow-us {
+        margin-bottom: 15px;
+        margin: auto;
+    }
+}
+
+
+
+
+
+/* media for 320px */
+
+@media screen and (max-width: 320px) {
+
+    /* Footer Media */
+
+    .contact-email {
+        text-align: center;
+    }
+
+    .contact-phone-to-quries {
+        text-align: center;
+    }
+
+    .contact-phone-to-distributor {
+        text-align: center;
+    }
+
+    .follow-us {
+        width: 250px;
+        height: 150px;
+    }
+
+    .newsletter {
+        height: 150px;
+    }
+
+    .newsletter h3 {
+        font-size: 14px;
+        margin-bottom: 15px;
+    }
+
+    .space-for-footer-email {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .footer-e-mail {
+        width: 290px;
+        height: 35px;
+        font-size: 13px;
+        outline: none;
+        background-color: black;
+        color: white;
+        border: 2px solid rgba(0, 0, 0, 0.87);
+    }
+
+
+    .name-and-copy {
+        margin: 10px 0 10px 0;
+        padding: 10px 0 5px 0;
+    }
+
+    .footer-name {
+        margin-left: 10px;
+        font-size: 11px;
+    }
+
+    .footer-copy {
+        margin-right: 10px;
+        font-size: 11px;
+    }
+
+
+    /* HEADER MEDIA */
+    .offers-strip p {
+        font-size: 9px;
+    }
+
+    .logo {
+        width: 48px;
+        height: 48px;
+    }
+
+    .logo img {
+        width: 48px;
+        height: 48px;
+    }
+    .search{
+        right: 16%;
+    }
+    .account{
+        left: 16%;
+    }
+    .HL-product {
+        left: -2%;
+      }
+      .HL-product img {
+        width: 60px;
+      }
 }
