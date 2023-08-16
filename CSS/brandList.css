@@ -1,0 +1,152 @@
+.mediaForh2andLogo {
+    display: none;
+}
+
+.for-brands {
+    width: 100%;
+    height: auto;
+
+}
+
+.space-for-all-brands {
+    width: 100%;
+    height: auto;
+    margin: 0 0 25px 0px;
+    overflow: hidden;
+}
+
+.space-for-all-brands-for-h2 {
+    width: 100%;
+    height: auto;
+    padding: 30px 0 20px 0;
+    font-size: 25px;
+    text-align: center;
+    color: black;
+}
+
+.first-brand {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+}
+
+.brand-logo {
+    margin: 0 0 0 15px;
+    width: 150px;
+    height: 150px;
+}
+
+.brand-logo a {
+    width: 100%;
+    height: 100%;
+    display: inline-block;
+}
+
+.brand-logo a img {
+    width: 100%;
+    height: 100%;
+    border: #000 solid 2px;
+    border-radius: 100%;
+}
+
+.first-brand-product-list {
+    width: 75%;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    overflow-x: scroll;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+    scroll-behavior: smooth;
+}
+
+.first-brand-product-list-for-a {
+    padding: 8px;
+    border-radius: 5px;
+    border: rgba(0, 0, 0, 0.336) 1px solid;
+    width: 197px;
+    height: auto;
+    /* min-height: 260px; */
+    max-width: 300px;
+}
+
+.product-title {
+    font-size: 14px;
+    padding: 10px 0;
+    width: 100%;
+    height: auto;
+    text-align: center;
+    color: black;
+}
+
+.first-brand-product-price {
+    position: relative;
+    left: 5%;
+    font-size: 16px;
+    font-weight: 600;
+    color: #000;
+}
+
+.first-brand-product-cart {
+    position: relative;
+    top: 1%;
+    left: 55%;
+    font-size: 19px;
+    font-weight: 600;
+    color: #000;
+    cursor: pointer;
+}
+
+.first-brand-product-list-for-a .product-box {
+    text-decoration: none;
+    height: auto;
+    display: inline-block;
+}
+
+.first-brand-product-listImage {
+    width: 180px;
+    height: 180px;
+    display: inline-block;
+}
+
+.first-brand-product-list-for-a a p {
+    color: #000;
+    text-align: center;
+}
+
+/* ITS FOR SHOW MORE BUTTON */
+.button-for-DDL {
+    margin: 0 15px 0 0;
+    width: 100px;
+    height: 40px;
+}
+
+.anchorForDDL {
+    width: 100%;
+    height: 100%;
+    display: inline-block;
+    text-decoration: none;
+    color: #000;
+}
+
+.anchorForDDL button {
+    width: 100%;
+    height: 100%;
+    border: 1px solid #000;
+    border-radius: 0px;
+    background-color: #ff8700;
+    font-size: 13px;
+}
+
+.anchorForDDL button:hover {
+    font-size: 15px;
+    font-weight: 600;
+    color: #fff;
+    background-color: #000;
+    /* background-color: rgba(128, 128, 128, 0.151); */
+}
