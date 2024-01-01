@@ -82,10 +82,6 @@
         position: relative;
         left: 0;
     }
-
-    .button-for-DDL {
-        margin: 0;
-    }
 }
 
 @media screen and (max-width: 900px) {
