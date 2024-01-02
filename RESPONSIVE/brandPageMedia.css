@@ -147,4 +147,15 @@
         width: 360px;
         font-size: 14px;
       }
+     .first-list-of-custom-brand-product-for-a {
+        width: 130px;
+        height: 200px;
+      }
+      .first-custom-brand-product-listImage {
+        width: 112px;
+        height: 112px;
+      }
+      .custom-brand-product-cart {
+        right: -48%;
+      }
 }
