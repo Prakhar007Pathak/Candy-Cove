@@ -17,20 +17,17 @@
 
 /* CROSS BUTTON */
 .close-products {
-    margin-top: 10px;
-    width: 100%;
-    height: auto;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    top: 120px;
+    position: absolute;
+    right: 20px;
 }
 .close-products a {
     text-decoration: none;
     color: #000;
 }
 .cross-icon {
-    width: 60px;
-    height: 60px;
+    width: 30px;
+    height: 30px;
     border-radius: 100px;
     box-shadow: 0 0 10px hsl(0 4% 15% / 100%);
     display: flex;
@@ -76,6 +73,7 @@
 
 /* BRAND LOGO HEADING CUSTOMIZE BTN */
 .for-brand-logo-name-custom {
+    margin-top: 30px;
     width: 100%;
     height: auto;
     display: flex;
@@ -123,7 +121,9 @@
 
 .for-customize-button button:hover {
     font-size: 20px;
-    font-weight: bold;
+    font-weight: 600;
+    color: #fff;
+    background-color: #000;
 }
 
 /* Customization Boxes */
@@ -175,6 +175,9 @@
     display: inline-block;
     text-align: center;
     overflow: hidden;
+    -webkit-user-select: none; /* Safari */
+    -ms-user-select: none; /* IE 10 and IE 11 */
+    user-select: none; /* Standard syntax */
 }
 .sub-partitions-for-four-parts-of-thousand-gram p{
     font-size: 13px;
@@ -224,7 +227,9 @@
     border: #000 solid 2px;
     border-radius: 12px;
     cursor: pointer;
-
+    -webkit-user-select: none; /* Safari */
+    -ms-user-select: none; /* IE 10 and IE 11 */
+    user-select: none; /* Standard syntax */
 }
 
 .sub-partitions-for-two-parts-of-thousand-gram {
@@ -251,6 +256,9 @@
     display: inline-block;
     text-align: center;
     overflow: hidden;
+    -webkit-user-select: none; /* Safari */
+    -ms-user-select: none; /* IE 10 and IE 11 */
+    user-select: none; /* Standard syntax */
 }
 .sub-partitions-for-four-parts-of-two-thousand-gram p{
     font-size: 13px;
@@ -316,19 +324,19 @@
 }
 
 .firstboxofAllRows {
-    left: 319px;
+    left: 213px;
 }
 
 .secondboxofAllRows {
-    left: 623px;
+    left: 213px;
 }
 
 .thirdboxofAllRows {
-    left: 926px;
+    left: 213px;
 }
 
 .fourthboxofAllRows {
-    left: 1230px;
+    left: 213px;
 }
 
 
@@ -337,6 +345,7 @@
     position: absolute;
 } */
 .custom-brand-product-list {
+    margin: 30px 0 40px 0;
     width: 100%;
     height: auto;
     display: flex;
@@ -348,14 +357,25 @@
     width: 90%;
     overflow: hidden;
     display: flex;
-    justify-content: space-around;
+    /* justify-content: space-around; */
     align-items: center;
+    /* flex-wrap: wrap; */
+
 }
 
 .first-list-of-custom-brand-product-for-a {
-    margin: 30px 25px;
+    /* margin: 30px 25px;
     width: 250px;
-    height: 350px;
+    height: 350px; */
+
+    position: relative;
+  left: 0%;
+  margin: 0 15px;
+  width: 250px;
+  height: 350px;
+  padding: 8px;
+  border-radius: 5px;
+  border: rgba(0, 0, 0, 0.336) 1px solid;
 }
 
 .product-title {
@@ -371,15 +391,17 @@
     font-size: 17px;
     font-weight: 600;
     color: #000;
-    padding: 2px 70px 2px 50px;
+    position: relative;
+    left: 8%;
 }
 
 .custom-brand-product-cart {
     font-size: 20px;
     font-weight: 600;
     color: #000;
-    padding: 2px 50px 2px 0px;
-    /* cursor: pointer; */
+    cursor: pointer;
+    position: relative;
+    right: -60%;
 }
 
 .first-list-of-custom-brand-product-for-a .product-box {
@@ -388,8 +410,8 @@
 }
 
 .first-custom-brand-product-listImage {
-    width: 250px;
-    height: 250px;
+    width: 230px;
+    height: 230px;
 }
 
 .first-list-of-custom-brand-product-for-a a p {
