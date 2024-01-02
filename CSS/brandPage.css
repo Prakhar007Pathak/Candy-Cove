@@ -1,19 +1,4 @@
 /* WHOLE CSS FOR CUSTOMIZATION PAGE  */
-.customize-temp-for-all-brands {
-
-    width: 100%;
-    max-height: none;
-    /* position: absolute; */
-    /* top: 0%; */
-    background-color: white;
-    /* visibility: collapse; */
-}
-
-/* .customize-temp-for-all-brands.active {
-    visibility: visible;
-    height: auto;
-    top: 120px;
-} */
 
 /* CROSS BUTTON */
 .close-products {
@@ -21,10 +6,12 @@
     position: absolute;
     right: 20px;
 }
+
 .close-products a {
     text-decoration: none;
     color: #000;
 }
+
 .cross-icon {
     width: 30px;
     height: 30px;
@@ -80,6 +67,10 @@
     justify-content: space-around;
     align-items: center;
 
+}
+
+.for-brand-logo-under-custom {
+    margin: 0 0 0 10px;
 }
 
 .for-brand-logo-under-custom img {
@@ -175,25 +166,33 @@
     display: inline-block;
     text-align: center;
     overflow: hidden;
-    -webkit-user-select: none; /* Safari */
-    -ms-user-select: none; /* IE 10 and IE 11 */
-    user-select: none; /* Standard syntax */
+    -webkit-user-select: none;
+    /* Safari */
+    -ms-user-select: none;
+    /* IE 10 and IE 11 */
+    user-select: none;
+    /* Standard syntax */
 }
-.sub-partitions-for-four-parts-of-thousand-gram p{
+
+.sub-partitions-for-four-parts-of-thousand-gram p {
     font-size: 13px;
     padding-top: 28px;
     height: auto;
 
 }
-.space-for-custom-box-for-four-parts-of-thousand-gram.changeColor{
+
+.space-for-custom-box-for-four-parts-of-thousand-gram.changeColor {
     color: #ff8700;
 }
-.space-for-custom-box-for-two-parts-of-thousand-gram.changeColor{
+
+.space-for-custom-box-for-two-parts-of-thousand-gram.changeColor {
     color: #ff8700;
 }
-.space-for-custom-box-for-four-parts-of-two-thousand-gram.changeColor{
+
+.space-for-custom-box-for-four-parts-of-two-thousand-gram.changeColor {
     color: #ff8700;
 }
+
 .custom-box-one-of-four-of-thousand-gram {
     top: 15px;
     left: 15px;
@@ -217,6 +216,7 @@
     position: relative;
     left: 15px;
 }
+
 /* 2*500gram box (SECOND CUSTOMIZATION BOX)*/
 .custom-box-for-two-parts-of-thousand-gram {
     display: flex;
@@ -227,9 +227,12 @@
     border: #000 solid 2px;
     border-radius: 12px;
     cursor: pointer;
-    -webkit-user-select: none; /* Safari */
-    -ms-user-select: none; /* IE 10 and IE 11 */
-    user-select: none; /* Standard syntax */
+    -webkit-user-select: none;
+    /* Safari */
+    -ms-user-select: none;
+    /* IE 10 and IE 11 */
+    user-select: none;
+    /* Standard syntax */
 }
 
 .sub-partitions-for-two-parts-of-thousand-gram {
@@ -242,7 +245,8 @@
     justify-content: center;
     overflow: hidden;
 }
-.sub-partitions-for-two-parts-of-thousand-gram p{
+
+.sub-partitions-for-two-parts-of-thousand-gram p {
     font-size: 13px;
     height: auto;
 }
@@ -256,11 +260,15 @@
     display: inline-block;
     text-align: center;
     overflow: hidden;
-    -webkit-user-select: none; /* Safari */
-    -ms-user-select: none; /* IE 10 and IE 11 */
-    user-select: none; /* Standard syntax */
+    -webkit-user-select: none;
+    /* Safari */
+    -ms-user-select: none;
+    /* IE 10 and IE 11 */
+    user-select: none;
+    /* Standard syntax */
 }
-.sub-partitions-for-four-parts-of-two-thousand-gram p{
+
+.sub-partitions-for-four-parts-of-two-thousand-gram p {
     font-size: 13px;
     padding-top: 28px;
     height: auto;
@@ -299,19 +307,23 @@
     position: absolute;
     visibility: collapse;
 }
+
 .firstBoxAllProductsCheck.show {
     visibility: visible;
-    
+
 }
+
 .secondBoxAllProductsCheck {
     width: 25px;
     height: 25px;
     position: absolute;
     visibility: collapse;
 }
+
 .secondBoxAllProductsCheck.show {
     visibility: visible;
 }
+
 .thirdBoxAllProductsCheck {
     width: 25px;
     height: 25px;
@@ -341,11 +353,8 @@
 
 
 /* ALL PORDUCTS FOR CUSTOMIZATION */
-/* .space-for-custom-brand-product-list{
-    position: absolute;
-} */
-.custom-brand-product-list {
-    margin: 30px 0 40px 0;
+.space-for-custom-brand-product-list {
+    margin: 50px 0 50px 0;
     width: 100%;
     height: auto;
     display: flex;
@@ -353,29 +362,22 @@
     align-items: center;
 }
 
-.first-list-of-custom-brand-product {
+.custom-brand-product-list {
     width: 90%;
-    overflow: hidden;
+    height: auto;
     display: flex;
     justify-content: space-around;
     align-items: center;
-    /* flex-wrap: wrap; */
-
+    flex-wrap: wrap;
 }
 
 .first-list-of-custom-brand-product-for-a {
-    /* margin: 30px 25px;
+    margin: 25px 15px;
     width: 250px;
-    height: 350px; */
-
-    position: relative;
-  left: 0%;
-  margin: 0 15px;
-  width: 250px;
-  height: 350px;
-  padding: 8px;
-  border-radius: 5px;
-  border: rgba(0, 0, 0, 0.336) 1px solid;
+    height: 350px;
+    padding: 8px;
+    border-radius: 5px;
+    border: rgba(0, 0, 0, 0.336) 1px solid;
 }
 
 .product-title {
