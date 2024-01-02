@@ -1,0 +1,150 @@
+@media screen and (max-width: 900px) {
+    .close-products {
+        top: 112px;
+    }
+
+    .for-brand-logo-name-custom {
+        margin-top: 45px;
+    }
+
+    .for-brand-logo-under-custom img {
+        width: 120px;
+        height: 120px;
+    }
+
+    .custom-heading {
+        width: 450px;
+        padding: 8px;
+        font-size: 20px;
+    }
+
+    .for-customize-button {
+        padding: 10px;
+    }
+
+    .for-customize-button button {
+        width: 150px;
+        height: 45px;
+        font-size: 15px;
+    }
+
+    .first-list-of-custom-brand-product-for-a {
+        width: 233px;
+        height: 330px;
+    }
+
+    .first-custom-brand-product-listImage {
+        width: 215px;
+        height: 215px;
+    }
+}
+
+@media screen and (max-width: 780px) {
+    .custom-heading {
+        width: 375px;
+        font-size: 17px;
+    }
+}
+
+@media screen and (max-width: 680px) {
+    .for-brand-logo-under-custom img {
+        width: 112px;
+        height: 112px;
+    }
+
+    .custom-heading {
+        width: 320px;
+        font-size: 15px;
+    }
+
+    .for-customize-button button {
+        width: 125px;
+        height: 42px;
+    }
+
+    .first-list-of-custom-brand-product-for-a {
+        width: 218px;
+        height: 315px;
+    }
+
+    .first-custom-brand-product-listImage {
+        width: 200px;
+        height: 200px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .custom-brand-product-list {
+        width: 100%;
+    }
+
+    .for-brand-logo-name-custom {
+        margin-top: 125px;
+    }
+
+    .for-brand-logo-under-custom {
+        margin: 0;
+        position: absolute;
+        top: 120px;
+    }
+
+    .for-brand-logo-under-custom img {
+        width: 108px;
+        height: 108px;
+    }
+    .custom-heading {
+        width: 390px;
+    }
+    .for-customize-button {
+        position: absolute;
+        top: 260px;
+      }
+    .for-customize-button button {
+        width: 105px;
+        height: 35px;
+        font-size: 13px;
+    }
+
+    .first-list-of-custom-brand-product-for-a {
+        width: 150px;
+        height: 240px;
+    }
+
+    .first-custom-brand-product-listImage {
+        width: 132px;
+        height: 132px;
+    }
+
+    .product-title {
+        font-size: 12px;
+    }
+
+    .custom-brand-product-price {
+        font-size: 13px;
+        left: 0%;
+    }
+
+    .custom-brand-product-cart {
+        font-size: 16px;
+        font-weight: 600;
+        right: -56%;
+    }
+
+    .first-list-of-custom-brand-product-for-a {
+        margin: 22px 5px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .for-brand-logo-under-custom {
+        top: 125px;
+    }
+    .for-brand-logo-under-custom img {
+        width: 100px;
+        height: 100px;
+      }
+      .custom-heading {
+        width: 360px;
+        font-size: 14px;
+      }
+}
