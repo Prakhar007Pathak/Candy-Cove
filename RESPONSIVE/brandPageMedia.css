@@ -176,3 +176,16 @@
         right: -40%;
       }
 }
+@media screen and (max-width: 375px) {
+    .first-list-of-custom-brand-product-for-a {
+        width: 108px;
+        height: 180px;
+    }
+    .first-custom-brand-product-listImage {
+        width: 90px;
+        height: 90px;
+      }
+      .custom-brand-product-cart {
+        right: -35%;
+      }
+}
