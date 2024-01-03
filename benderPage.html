@@ -7,14 +7,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="CSS/header-footer.css">
     <link rel="stylesheet" href="RESPONSIVE/headerFooterMedia.css">
-    <link rel="stylesheet" href="CSS/benderPage.css">
+    <link rel="stylesheet" href="CSS/brandPage.css">
+    <link rel="stylesheet" href="RESPONSIVE/brandPageMedia.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Nunito&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Righteous&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css">
-    <title>Bender Page</title>
+    <title>Brand Product and Box Costomisation</title>
 </head>
 
 <body>
@@ -98,59 +99,531 @@
             </div>
         </div>
     </header>
-    <!-- main -->
+    <!-- MAIN -->
     <main>
-        <!-- heading of bender -->
-        <h2 class="headingForBender">Enter Your Product Details.</h2>
-        <!-- form for full document  -->
-        <form action="https://formspree.io/f/xzbqwzay" method="post">
-            <!-- Image updoad temp. -->
-            <script class="jsbin" src="https://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
-            <div class="file-upload">
-                <button class="file-upload-btn" type="button" onclick="$('.file-upload-input').trigger('click')">Add
-                    Image</button>
-                <div class="image-upload-wrap">
-                    <input class="file-upload-input" type='file' onchange="readURL(this);" accept="image/*" multiple>
-                    <div class="drag-text">
-                        <h3 class="h3ForDragText">Drag and drop a file or select add Image</h3>
+        <!-- BOX CUSTOMIZATION FOR FIRST BRAND -->
+        <div class="customize-temp-for-all-brands customize-temp-for-first-brand">
+            <!-- ITS HEADING (LOGO, NAME & BUTTON) -->
+            <div class="for-brand-logo-name-custom">
+                <div class="for-brand-logo-under-custom">
+                    <img src="IMG/bikaner-wala.jpeg" alt="brand-logo" width="150px">
+                </div>
+                <h2 class="custom-heading">Shop And Customize Your Sweet Box With Bikaner</h2>
+                <div class="for-customize-button">
+                    <button id="customizationButton">Customize</button>
+                </div>
+            </div>
+            <!--CUSTOMIZATION BOXES  -->
+            <div class="customization-boxes">
+                <!-- box of 1kg in four parts -->
+                <div class="space-for-custom-box-for-four-parts-of-thousand-gram" onclick="changeColor(this)">
+                    <h2 class="headings-of-customization-boxes">(4 x 250) Gram</h2>
+                    <div class="custom-box-for-four-parts-of-thousand-gram custom-boxes" id="AllCheckForFirstBox">
+                        <div id="Product 1"
+                            class="custom-box-one-of-four-of-thousand-gram sub-partitions-for-four-parts-of-thousand-gram">
+                            <p>Product 1</p>
+                        </div>
+                        <div id="Product 2"
+                            class="custom-box-two-of-four-of-thousand-gram sub-partitions-for-four-parts-of-thousand-gram">
+                            <p>Product 2</p>
+                        </div>
+                        <div id="Product 3"
+                            class="custom-box-three-of-four-of-thousand-gram sub-partitions-for-four-parts-of-thousand-gram">
+                            <p>Product 3</p>
+                        </div>
+                        <div id="Product 4"
+                            class="custom-box-four-of-four-of-thousand-gram sub-partitions-for-four-parts-of-thousand-gram">
+                            <p>Product 4</p>
+                        </div>
+                    </div>
+                    <div class="total-price-customization-boxes">
+                        <div class="total-title-customization-boxes">Total</div>
+                        <div id="total-price-customization-boxes-for-first"></div>
                     </div>
                 </div>
-                <div class="file-upload-content">
-                    <img class="file-upload-image" src="#" alt="your image" />
-                    <div class="image-title-wrap">
-                        <button type="button" onclick="removeUpload()" class="remove-image">Remove <span
-                                class="image-title">Uploaded Image</span></button>
+                <!-- box of 1kg in two parts-->
+                <div class="space-for-custom-box-for-two-parts-of-thousand-gram" onclick="changeColor(this)">
+                    <h2 class="headings-of-customization-boxes">(2 x 500) Gram</h2>
+                    <div class="custom-box-for-two-parts-of-thousand-gram custom-box" id="AllCheckForSecondBox">
+                        <div id="Product 1"
+                            class="custom-box-one-of-two-of-thousand-gram sub-partitions-for-two-parts-of-thousand-gram">
+                            <p>Product 1</p>
+                        </div>
+                        <div id="Product 2"
+                            class="custom-box-two-of-two-of-thousand-gram sub-partitions-for-two-parts-of-thousand-gram">
+                            <p>Product 2</p>
+                        </div>
+                    </div>
+                    <div class="total-price-customization-boxes">
+                        <div class="total-title-customization-boxes">Total</div>
+                        <div id="total-price-customization-boxes-for-second"></div>
+                    </div>
+                </div>
+                <!-- box of 2kg in four parts-->
+                <div class="space-for-custom-box-for-four-parts-of-two-thousand-gram" onclick="changeColor(this)">
+                    <h2 class="headings-of-customization-boxes" id="headingOfFirstCustomBox">(4 x 500) Gram</h2>
+                    <div class="custom-box-for-four-parts-of-two-thousand-gram custom-boxes" id="AllCheckForThirdBox">
+                        <div id="Product 1"
+                            class="custom-box-one-of-four-of-two-thousand-gram sub-partitions-for-four-parts-of-two-thousand-gram">
+                            <p>Product 1</p>
+                        </div>
+                        <div id="Product 2"
+                            class="custom-box-two-of-four-of-two-thousand-gram sub-partitions-for-four-parts-of-two-thousand-gram">
+                            <p>Product 2</p>
+                        </div>
+                        <div id="Product 3"
+                            class="custom-box-three-of-four-of-two-thousand-gram sub-partitions-for-four-parts-of-two-thousand-gram">
+                            <p>Product 1</p>
+                        </div>
+                        <div id="Product 4"
+                            class="custom-box-four-of-four-of-two-thousand-gram sub-partitions-for-four-parts-of-two-thousand-gram">
+                            <p>Product 4</p>
+                        </div>
+                    </div>
+                    <div class="total-price-customization-boxes">
+                        <div class="total-title-customization-boxes">Total</div>
+                        <div id="total-price-customization-boxes-for-third"></div>
                     </div>
                 </div>
             </div>
-            <p class="pForNotes">Note: atleast 3 images must be added.</p>
-            <!-- Input for name -->
-            <label for="name">
-                <p class="pForLabels">Enter The Detailed Name Of Products</p>
-            </label>
-            <input type="text" id="name" class="name inputs" placeholder="Enter Product Name" required>
-            <!-- Input for Flavour -->
-            <div class="spaceForFlavour">
-                <label for="flavour">
-                    <p class="pForLabels">Flavours</p>
-                </label>
-                <input type="text" id="flavour" class="flavour inputs" placeholder="Enter Flavour Name" required>
-                <button id="buttonForFlavour">+</button>
+            <!-- CUSTOMIZATION PRODUCTS ROWS -->
+            <div class="space-for-custom-brand-product-list">
+                <div class="custom-brand-product-list">
+                    <!-- ITS FIRST ROW -->
+                    <div class="first-list-of-custom-brand-product-for-a first-product-of-first-custom-brand">
+
+                        <input type="checkbox" name="Select Product" id="checkFirstboxofAllRows"
+                            class="firstBoxAllProductsCheck firstboxofAllRows" onclick="firstLimitCheckboxSelection()"
+                            onchange="firstHandleCheckboxSelection(this)"
+                            data-image="https://source.unsplash.com/250x250/?Bikaner-sweet-food-product"
+                            data-price="1000">
+
+                        <input type="checkbox" name="Select Product" class="secondBoxAllProductsCheck firstboxofAllRows"
+                            onclick="secondLimitCheckboxSelection()" onchange="secondHandleCheckboxSelection(this)"
+                            data-image="https://source.unsplash.com/250x250/?Bikaner-sweet-food-product"
+                            data-price="1000">
+
+                        <input type="checkbox" name="Select Product" class="thirdBoxAllProductsCheck firstboxofAllRows"
+                            onclick="thirdLimitCheckboxSelection()" onchange="thirdHandleCheckboxSelection(this)"
+                            data-image="https://source.unsplash.com/250x250/?Bikaner-sweet-food-product"
+                            data-price="1000">
+
+
+                        <a href="" class="product-box"><img
+                                src="https://source.unsplash.com/250x250/?Bikaner-sweet-food-product" width="250px"
+                                class="first-custom-brand-product-listImage product-img" alt="first-product">
+                            <p class="product-title">FIRST PRODUCT</p>
+                        </a>
+                        <span class="price custom-brand-product-price">₹ 1000</span><i
+                            class="bx bx-shopping-bag add-cart custom-brand-product-cart"></i>
+
+                    </div>
+                    <div class="first-list-of-custom-brand-product-for-a second-product-of-first-custom-brand">
+
+                        <input type="checkbox" name="Select Product" class="firstBoxAllProductsCheck secondboxofAllRows"
+                            onclick="firstLimitCheckboxSelection()" onchange="firstHandleCheckboxSelection(this)"
+                            data-image="https://source.unsplash.com/200x200/?Bikaner-premium-made-sweet-food-product"
+                            data-price="1000">
+
+                        <input type="checkbox" name="Select Product"
+                            class="secondBoxAllProductsCheck secondboxofAllRows"
+                            onclick="secondLimitCheckboxSelection()" onchange="secondHandleCheckboxSelection(this)"
+                            data-image="https://source.unsplash.com/200x200/?Bikaner-premium-made-sweet-food-product"
+                            data-price="1000">
+
+                        <input type="checkbox" name="Select Product" class="thirdBoxAllProductsCheck secondboxofAllRows"
+                            onclick="thirdLimitCheckboxSelection()" onchange="thirdHandleCheckboxSelection(this)"
+                            data-image="https://source.unsplash.com/200x200/?Bikaner-premium-made-sweet-food-product"
+                            data-price="1000">
+
+                        <a href="" class="product-box"><img
+                                src="https://source.unsplash.com/200x200/?Bikaner-premium-made-sweet-food-product"
+                                width="200px" class="first-custom-brand-product-listImage product-img"
+                                alt="second-product">
+                            <p class="product-title">SECOND PRODUCT</p>
+                        </a>
+                        <span class="price custom-brand-product-price">₹ 1000</span><i
+                            class="bx bx-shopping-bag add-cart custom-brand-product-cart"></i>
+
+                    </div>
+                    <div class="first-list-of-custom-brand-product-for-a third-product-of-first-custom-brand">
+
+                        <input type="checkbox" name="Select Product" class="firstBoxAllProductsCheck thirdboxofAllRows"
+                            onclick="firstLimitCheckboxSelection()" onchange="firstHandleCheckboxSelection(this)"
+                            data-image="https://source.unsplash.com/200x200/?Bikaner-premium-sweet-food-product"
+                            data-price="1000">
+
+                        <input type="checkbox" name="Select Product" class="secondBoxAllProductsCheck thirdboxofAllRows"
+                            onclick="secondLimitCheckboxSelection()" onchange="secondHandleCheckboxSelection(this)"
+                            data-image="https://source.unsplash.com/200x200/?Bikaner-premium-sweet-food-product"
+                            data-price="1000">
+
+                        <input type="checkbox" name="Select Product" class="thirdBoxAllProductsCheck thirdboxofAllRows"
+                            onclick="thirdLimitCheckboxSelection()" onchange="thirdHandleCheckboxSelection(this)"
+                            data-image="https://source.unsplash.com/200x200/?Bikaner-premium-sweet-food-product"
+                            data-price="1000">
+
+                        <a href="" class="product-box"><img
+                                src="https://source.unsplash.com/200x200/?Bikaner-premium-sweet-food-product"
+                                width="200px" class="first-custom-brand-product-listImage product-img"
+                                alt="third-product">
+                            <p class="product-title">THIRD PRODUCT</p>
+                        </a>
+                        <span class="price custom-brand-product-price">₹ 1000</span><i
+                            class="bx bx-shopping-bag add-cart custom-brand-product-cart"></i>
+
+                    </div>
+                    <div class="first-list-of-custom-brand-product-for-a fourth-product-of-first-custom-brand">
+
+                        <input type="checkbox" name="Select Product" class="firstBoxAllProductsCheck fourthboxofAllRows"
+                            onclick="firstLimitCheckboxSelection()" onchange="firstHandleCheckboxSelection(this)"
+                            data-image="https://source.unsplash.com/200x200/?Bikaner-premium-sweet-food"
+                            data-price="1000">
+
+                        <input type="checkbox" name="Select Product"
+                            class="secondBoxAllProductsCheck fourthboxofAllRows"
+                            onclick="secondLimitCheckboxSelection()" onchange="secondHandleCheckboxSelection(this)"
+                            data-image="https://source.unsplash.com/200x200/?Bikaner-premium-sweet-food"
+                            data-price="1000">
+
+                        <input type="checkbox" name="Select Product" class="thirdBoxAllProductsCheck fourthboxofAllRows"
+                            onclick="thirdLimitCheckboxSelection()" onchange="thirdHandleCheckboxSelection(this)"
+                            data-image="https://source.unsplash.com/200x200/?Bikaner-premium-sweet-food"
+                            data-price="1000">
+
+                        <a href="" class="product-box"><img
+                                src="https://source.unsplash.com/200x200/?Bikaner-premium-sweet-food" width="200px"
+                                class="first-custom-brand-product-listImage product-img" alt="fourth-product">
+                            <p class="product-title">FOURTH PRODUCT</p>
+                        </a>
+                        <span class="price custom-brand-product-price">₹ 1000</span><i
+                            class="bx bx-shopping-bag add-cart custom-brand-product-cart"></i>
+
+                    </div>
+                    <!-- ITS SECOND ROW -->
+                    <div class="first-list-of-custom-brand-product-for-a first-product-of-first-custom-brand">
+                        <input type="checkbox" name="Select Product" class="firstBoxAllProductsCheck firstboxofAllRows"
+                            onclick="firstLimitCheckboxSelection()" onchange="firstHandleCheckboxSelection(this)"
+                            data-image="https://source.unsplash.com/250x250/?Bikaner-sweet-food-product"
+                            data-price="1000">
+
+                        <input type="checkbox" name="Select Product" class="firstboxofAllRows secondBoxAllProductsCheck"
+                            onclick="secondLimitCheckboxSelection()" onchange="secondHandleCheckboxSelection(this)"
+                            data-image="https://source.unsplash.com/250x250/?Bikaner-sweet-food-product"
+                            data-price="1000">
+
+                        <input type="checkbox" name="Select Product" class="firstboxofAllRows thirdBoxAllProductsCheck"
+                            onclick="thirdLimitCheckboxSelection()" onchange="thirdHandleCheckboxSelection(this)"
+                            data-image="https://source.unsplash.com/250x250/?Bikaner-sweet-food-product"
+                            data-price="1000">
+
+                        <a href="" class="product-box"><img
+                                src="https://source.unsplash.com/250x250/?Bikaner-sweet-food-product" width="250px"
+                                class="first-custom-brand-product-listImage product-img" alt="first-product">
+                            <p class="product-title">FIRST PRODUCT</p>
+                        </a>
+                        <span class="price custom-brand-product-price">₹ 1000</span><i
+                            class="bx bx-shopping-bag add-cart custom-brand-product-cart"></i>
+
+                    </div>
+                    <div class="first-list-of-custom-brand-product-for-a second-product-of-first-custom-brand">
+                        <input type="checkbox" name="Select Product" class="firstBoxAllProductsCheck secondboxofAllRows"
+                            onclick="firstLimitCheckboxSelection()" onchange="firstHandleCheckboxSelection(this)"
+                            data-image="https://source.unsplash.com/200x200/?Bikaner-premium-made-sweet-food-product"
+                            data-price="1000">
+
+                        <input type="checkbox" name="Select Product"
+                            class="secondboxofAllRows secondBoxAllProductsCheck"
+                            onclick="secondLimitCheckboxSelection()" onchange="secondHandleCheckboxSelection(this)"
+                            data-image="https://source.unsplash.com/200x200/?Bikaner-premium-made-sweet-food-product"
+                            data-price="1000">
+
+                        <input type="checkbox" name="Select Product" class="secondboxofAllRows thirdBoxAllProductsCheck"
+                            onclick="thirdLimitCheckboxSelection()" onchange="thirdHandleCheckboxSelection(this)"
+                            data-image="https://source.unsplash.com/200x200/?Bikaner-premium-made-sweet-food-product"
+                            data-price="1000">
+
+                        <a href="" class="product-box"><img
+                                src="https://source.unsplash.com/200x200/?Bikaner-premium-made-sweet-food-product"
+                                width="200px" class="first-custom-brand-product-listImage product-img"
+                                alt="second-product">
+                            <p class="product-title">SECOND PRODUCT</p>
+                        </a>
+                        <span class="price custom-brand-product-price">₹ 1000</span><i
+                            class="bx bx-shopping-bag add-cart custom-brand-product-cart"></i>
+
+                    </div>
+                    <div class="first-list-of-custom-brand-product-for-a third-product-of-first-custom-brand">
+
+                        <input type="checkbox" name="Select Product" class="firstBoxAllProductsCheck thirdboxofAllRows"
+                            onclick="firstLimitCheckboxSelection()" onchange="firstHandleCheckboxSelection(this)"
+                            data-image="https://source.unsplash.com/200x200/?Bikaner-premium-sweet-food-product"
+                            data-price="1000">
+                        <input type="checkbox" name="Select Product" class="thirdboxofAllRows secondBoxAllProductsCheck"
+                            onclick="secondLimitCheckboxSelection()" onchange="secondHandleCheckboxSelection(this)"
+                            data-image="https://source.unsplash.com/200x200/?Bikaner-premium-sweet-food-product"
+                            data-price="1000">
+                        <input type="checkbox" name="Select Product" class="thirdboxofAllRows thirdBoxAllProductsCheck"
+                            onclick="thirdLimitCheckboxSelection()" onchange="thirdHandleCheckboxSelection(this)"
+                            data-image="https://source.unsplash.com/200x200/?Bikaner-premium-sweet-food-product"
+                            data-price="1000">
+
+                        <a href="" class="product-box"><img
+                                src="https://source.unsplash.com/200x200/?Bikaner-premium-sweet-food-product"
+                                width="200px" class="first-custom-brand-product-listImage product-img"
+                                alt="third-product">
+                            <p class="product-title">THIRD PRODUCT</p>
+                        </a>
+                        <span class="price custom-brand-product-price">₹ 1000</span><i
+                            class="bx bx-shopping-bag add-cart custom-brand-product-cart"></i>
+
+                    </div>
+                    <div class="first-list-of-custom-brand-product-for-a fourth-product-of-first-custom-brand">
+
+                        <input type="checkbox" name="Select Product" class="firstBoxAllProductsCheck fourthboxofAllRows"
+                            onclick="firstLimitCheckboxSelection()" onchange="firstHandleCheckboxSelection(this)"
+                            data-image="https://source.unsplash.com/200x200/?Bikaner-premium-sweet-food"
+                            data-price="1000">
+                        <input type="checkbox" name="Select Product"
+                            class="fourthboxofAllRows secondBoxAllProductsCheck"
+                            onclick="secondLimitCheckboxSelection()" onchange="secondHandleCheckboxSelection(this)"
+                            data-image="https://source.unsplash.com/200x200/?Bikaner-premium-sweet-food"
+                            data-price="1000">
+                        <input type="checkbox" name="Select Product" class="fourthboxofAllRows thirdBoxAllProductsCheck"
+                            onclick="thirdLimitCheckboxSelection()" onchange="thirdHandleCheckboxSelection(this)"
+                            data-image="https://source.unsplash.com/200x200/?Bikaner-premium-sweet-food"
+                            data-price="1000">
+
+                        <a href="" class="product-box"><img
+                                src="https://source.unsplash.com/200x200/?Bikaner-premium-sweet-food" width="200px"
+                                class="first-custom-brand-product-listImage product-img" alt="fourth-product">
+                            <p class="product-title">FOURTH PRODUCT</p>
+                        </a>
+                        <span class="price custom-brand-product-price">₹ 1000</span><i
+                            class="bx bx-shopping-bag add-cart custom-brand-product-cart"></i>
+
+                    </div>
+                    <!-- ITS THIRD ROW -->
+                    <div class="first-list-of-custom-brand-product-for-a first-product-of-first-custom-brand">
+
+                        <input type="checkbox" name="Select Product" class="firstBoxAllProductsCheck firstboxofAllRows"
+                            onclick="firstLimitCheckboxSelection()" onchange="firstHandleCheckboxSelection(this)"
+                            data-image="https://source.unsplash.com/250x250/?Bikaner-sweet-food-produc"
+                            data-price="1000">
+
+                        <input type="checkbox" name="Select Product" class="firstboxofAllRows secondBoxAllProductsCheck"
+                            onclick="secondLimitCheckboxSelection()" onchange="secondHandleCheckboxSelection(this)"
+                            data-image="https://source.unsplash.com/250x250/?Bikaner-sweet-food-productproduct"
+                            data-price="1000">
+
+                        <input type="checkbox" name="Select Product" class="firstboxofAllRows thirdBoxAllProductsCheck"
+                            onclick="thirdLimitCheckboxSelection()" onchange="thirdHandleCheckboxSelection(this)"
+                            data-image="https://source.unsplash.com/250x250/?Bikaner-sweet-food-product"
+                            data-price="1000">
+
+                        <a href="" class="product-box"><img
+                                src="https://source.unsplash.com/250x250/?Bikaner-sweet-food-product" width="250px"
+                                class="first-custom-brand-product-listImage product-img" alt="first-product">
+                            <p class="product-title">FIRST PRODUCT</p>
+                        </a>
+                        <span class="price custom-brand-product-price">₹ 1000</span><i
+                            class="bx bx-shopping-bag add-cart custom-brand-product-cart"></i>
+
+                    </div>
+                    <div class="first-list-of-custom-brand-product-for-a second-product-of-first-custom-brand">
+
+                        <input type="checkbox" name="Select Product" class="firstBoxAllProductsCheck secondboxofAllRows"
+                            onclick="firstLimitCheckboxSelection()" onchange="firstHandleCheckboxSelection(this)"
+                            data-image="https://source.unsplash.com/200x200/?Bikaner-premium-made-sweet-food-product"
+                            data-price="1000">
+
+                        <input type="checkbox" name="Select Product"
+                            class="secondboxofAllRows secondBoxAllProductsCheck"
+                            onclick="secondLimitCheckboxSelection()" onchange="secondHandleCheckboxSelection(this)"
+                            data-image="https://source.unsplash.com/200x200/?Bikaner-premium-made-sweet-food-product"
+                            data-price="1000">
+
+                        <input type="checkbox" name="Select Product" class="secondboxofAllRows thirdBoxAllProductsCheck"
+                            onclick="thirdLimitCheckboxSelection()" onchange="thirdHandleCheckboxSelection(this)"
+                            data-image="https://source.unsplash.com/200x200/?Bikaner-premium-made-sweet-food-product"
+                            data-price="1000">
+
+                        <a href="" class="product-box">
+                            <img src="https://source.unsplash.com/200x200/?Bikaner-premium-made-sweet-food-product"
+                                width="200px" class="first-custom-brand-product-listImage product-img"
+                                alt="second-product">
+                            <p class="product-title">SECOND PRODUCT</p>
+                        </a>
+                        <span class="price custom-brand-product-price">₹ 1000</span><i
+                            class="bx bx-shopping-bag add-cart custom-brand-product-cart"></i>
+
+                    </div>
+                    <div class="first-list-of-custom-brand-product-for-a third-product-of-first-custom-brand">
+
+                        <input type="checkbox" name="Select Product" class="firstBoxAllProductsCheck thirdboxofAllRows"
+                            onclick="firstLimitCheckboxSelection()" onchange="firstHandleCheckboxSelection(this)"
+                            data-image="https://source.unsplash.com/200x200/?Bikaner-premium-sweet-food-product"
+                            data-price="1000">
+
+                        <input type="checkbox" name="Select Product" class="thirdboxofAllRows secondBoxAllProductsCheck"
+                            onclick="secondLimitCheckboxSelection()" onchange="secondHandleCheckboxSelection(this)"
+                            data-image="https://source.unsplash.com/200x200/?Bikaner-premium-sweet-food-product"
+                            data-price="1000">
+
+                        <input type="checkbox" name="Select Product" class="thirdboxofAllRows thirdBoxAllProductsCheck"
+                            onclick="thirdLimitCheckboxSelection()" onchange="thirdHandleCheckboxSelection(this)"
+                            data-image="https://source.unsplash.com/200x200/?Bikaner-premium-sweet-food-product"
+                            data-price="1000">
+
+                        <a href="" class="product-box"><img
+                                src="https://source.unsplash.com/200x200/?Bikaner-premium-sweet-food-product"
+                                width="200px" class="first-custom-brand-product-listImage product-img"
+                                alt="third-product">
+                            <p class="product-title">THIRD PRODUCT</p>
+                        </a>
+                        <span class="price custom-brand-product-price">₹ 1000</span><i
+                            class="bx bx-shopping-bag add-cart custom-brand-product-cart"></i>
+
+                    </div>
+                    <div class="first-list-of-custom-brand-product-for-a fourth-product-of-first-custom-brand">
+
+                        <input type="checkbox" name="Select Product" class="firstBoxAllProductsCheck fourthboxofAllRows"
+                            onclick="firstLimitCheckboxSelection()" onchange="firstHandleCheckboxSelection(this)"
+                            data-image="https://source.unsplash.com/200x200/?Bikaner-premium-sweet-food"
+                            data-price="1000">
+
+                        <input type="checkbox" name="Select Product"
+                            class="fourthboxofAllRows secondBoxAllProductsCheck"
+                            onclick="secondLimitCheckboxSelection()" onchange="secondHandleCheckboxSelection(this)"
+                            data-image="https://source.unsplash.com/200x200/?Bikaner-premium-sweet-food"
+                            data-price="1000">
+
+                        <input type="checkbox" name="Select Product" class="fourthboxofAllRows thirdBoxAllProductsCheck"
+                            onclick="thirdLimitCheckboxSelection()" onchange="thirdHandleCheckboxSelection(this)"
+                            data-image="https://source.unsplash.com/200x200/?Bikaner-premium-sweet-food"
+                            data-price="1000">
+
+                        <a href="" class="product-box"><img
+                                src="https://source.unsplash.com/200x200/?Bikaner-premium-sweet-food" width="200px"
+                                class="first-custom-brand-product-listImage product-img" alt="fourth-product">
+                            <p class="product-title">FOURTH PRODUCT</p>
+                        </a>
+                        <span class="price custom-brand-product-price">₹ 1000</span><i
+                            class="bx bx-shopping-bag add-cart custom-brand-product-cart"></i>
+
+                    </div>
+                    <!-- ITS FOURTH ROW -->
+                    <div class="first-list-of-custom-brand-product-for-a first-product-of-first-custom-brand">
+
+                        <input type="checkbox" name="Select Product" class="firstBoxAllProductsCheck firstboxofAllRows"
+                            onclick="firstLimitCheckboxSelection()" onchange="firstHandleCheckboxSelection(this)"
+                            data-image="https://source.unsplash.com/250x250/?Bikaner-sweet-food-product"
+                            data-price="1000">
+
+                        <input type="checkbox" name="Select Product" class="firstboxofAllRows secondBoxAllProductsCheck"
+                            onclick="secondLimitCheckboxSelection()" onchange="secondHandleCheckboxSelection(this)"
+                            data-image="https://source.unsplash.com/250x250/?Bikaner-sweet-food-product"
+                            data-price="1000">
+
+                        <input type="checkbox" name="Select Product" class="firstboxofAllRows thirdBoxAllProductsCheck"
+                            onclick="thirdLimitCheckboxSelection()" onchange="thirdHandleCheckboxSelection(this)"
+                            data-image="https://source.unsplash.com/250x250/?Bikaner-sweet-food-product"
+                            data-price="1000">
+
+                        <a href="" class="product-box"><img
+                                src="https://source.unsplash.com/250x250/?Bikaner-sweet-food-product" width="250px"
+                                class="first-custom-brand-product-listImage product-img" alt="first-product">
+                            <p class="product-title">FIRST PRODUCT</p>
+                        </a>
+                        <span class="price custom-brand-product-price">₹ 1000</span><i
+                            class="bx bx-shopping-bag add-cart custom-brand-product-cart"></i>
+
+                    </div>
+                    <div class="first-list-of-custom-brand-product-for-a second-product-of-first-custom-brand">
+
+                        <input type="checkbox" name="Select Product" class="firstBoxAllProductsCheck secondboxofAllRows"
+                            onclick="firstLimitCheckboxSelection()" onchange="firstHandleCheckboxSelection(this)"
+                            data-image="https://source.unsplash.com/200x200/?Bikaner-premium-made-sweet-food-product"
+                            data-price="1000">
+
+                        <input type="checkbox" name="Select Product"
+                            class="secondboxofAllRows secondBoxAllProductsCheck"
+                            onclick="secondLimitCheckboxSelection()" onchange="secondHandleCheckboxSelection(this)"
+                            data-image="https://source.unsplash.com/200x200/?Bikaner-premium-made-sweet-food-product"
+                            data-price="1000">
+
+                        <input type="checkbox" name="Select Product" class="secondboxofAllRows thirdBoxAllProductsCheck"
+                            onclick="thirdLimitCheckboxSelection()" onchange="thirdHandleCheckboxSelection(this)"
+                            data-image="https://source.unsplash.com/200x200/?Bikaner-premium-made-sweet-food-product"
+                            data-price="1000">
+
+                        <a href="" class="product-box"><img
+                                src="https://source.unsplash.com/200x200/?Bikaner-premium-made-sweet-food-product"
+                                width="200px" class="first-custom-brand-product-listImage product-img"
+                                alt="second-product">
+                            <p class="product-title">SECOND PRODUCT</p>
+                        </a>
+                        <span class="price custom-brand-product-price">₹ 1000</span><i
+                            class="bx bx-shopping-bag add-cart custom-brand-product-cart"></i>
+
+                    </div>
+                    <div class="first-list-of-custom-brand-product-for-a third-product-of-first-custom-brand">
+
+                        <input type="checkbox" name="Select Product" class="firstBoxAllProductsCheck thirdboxofAllRows"
+                            onclick="firstLimitCheckboxSelection()" onchange="firstHandleCheckboxSelection(this)"
+                            data-image="https://source.unsplash.com/200x200/?Bikaner-premium-sweet-food-product"
+                            data-price="1000">
+
+                        <input type="checkbox" name="Select Product" class="thirdboxofAllRows secondBoxAllProductsCheck"
+                            onclick="secondLimitCheckboxSelection()" onchange="secondHandleCheckboxSelection(this)"
+                            data-image="https://source.unsplash.com/200x200/?Bikaner-premium-sweet-food-product"
+                            data-price="1000">
+
+                        <input type="checkbox" name="Select Product" class="thirdboxofAllRows thirdBoxAllProductsCheck"
+                            onclick="thirdLimitCheckboxSelection()" onchange="thirdHandleCheckboxSelection(this)"
+                            data-image="https://source.unsplash.com/200x200/?Bikaner-premium-sweet-food-product"
+                            data-price="1000">
+
+                        <a href="" class="product-box"><img
+                                src="https://source.unsplash.com/200x200/?Bikaner-premium-sweet-food-product"
+                                width="200px" class="first-custom-brand-product-listImage product-img"
+                                alt="third-product">
+                            <p class="product-title">THIRD PRODUCT</p>
+                        </a>
+                        <span class="price custom-brand-product-price">₹ 1000</span><i
+                            class="bx bx-shopping-bag add-cart custom-brand-product-cart"></i>
+
+                    </div>
+                    <div class="first-list-of-custom-brand-product-for-a fourth-product-of-first-custom-brand">
+
+                        <input type="checkbox" name="Select Product" class="firstBoxAllProductsCheck fourthboxofAllRows"
+                            onclick="firstLimitCheckboxSelection()" onchange="firstHandleCheckboxSelection(this)"
+                            data-image="https://source.unsplash.com/200x200/?Bikaner-premium-sweet-food"
+                            data-price="1000">
+
+                        <input type="checkbox" name="Select Product"
+                            class="fourthboxofAllRows secondBoxAllProductsCheck"
+                            onclick="secondLimitCheckboxSelection()" onchange="secondHandleCheckboxSelection(this)"
+                            data-image="https://source.unsplash.com/200x200/?Bikaner-premium-sweet-food"
+                            data-price="1000">
+
+                        <input type="checkbox" name="Select Product" class="fourthboxofAllRows thirdBoxAllProductsCheck"
+                            onclick="thirdLimitCheckboxSelection()" onchange="thirdHandleCheckboxSelection(this)"
+                            data-image="https://source.unsplash.com/200x200/?Bikaner-premium-sweet-food"
+                            data-price="1000">
+
+                        <a href="" class="product-box"><img
+                                src="https://source.unsplash.com/200x200/?Bikaner-premium-sweet-food" width="200px"
+                                class="first-custom-brand-product-listImage product-img" alt="fourth-product">
+                            <p class="product-title">FOURTH PRODUCT</p>
+                        </a>
+                        <span class="price custom-brand-product-price">₹ 1000</span><i
+                            class="bx bx-shopping-bag add-cart custom-brand-product-cart"></i>
+
+                    </div>
+                </div>
             </div>
-            <!-- input for ingredients  -->
-            <label for="ingredients">
-                <p class="pForLabels">Write All Ingredients Of Your Product</p>
-            </label>
-            <textarea name="ingredients" id="ingredients" class="inputs" cols="30" rows="10"
-                placeholder="Ingredients"></textarea>
-            <!-- input for highlights  -->
-            <label for="highlights">
-                <p class="pForLabels">Write All highlights Of Your Product</p>
-            </label>
-            <textarea name="highlights" id="highlights" class="inputs" cols="30" rows="10"
-                placeholder="highlights"></textarea>
-            <input type="submit" value="Submit" class="inputs submit">
-        </form>
+        </div>
     </main>
     <!-- FOOTER -->
     <footer>
@@ -233,16 +706,9 @@
             </div>
         </div>
     </footer>
-    <script src="SCRIPT/benderPage.js"></script>
+    <!-- SCRIPTS -->
+    <script src="SCRIPT/cart.js"></script>
+    <script src="SCRIPT/brandPage.js"></script>
 </body>
 
 </html>
-
-<!-- 
-atleast 3 img(also in good quality.) 
-full name of products
-current bulk 
-all ingredients
-all flavours
-highlights
- -->
