@@ -246,51 +246,40 @@
 .firstBoxAllProductsCheck {
     width: 25px;
     height: 25px;
-    position: absolute;
+    position: relative;
     visibility: collapse;
+    left: 205px;
 }
 
 .firstBoxAllProductsCheck.show {
     visibility: visible;
-
+    z-index: 1;
 }
 
 .secondBoxAllProductsCheck {
     width: 25px;
     height: 25px;
-    position: absolute;
+    position: relative;
     visibility: collapse;
+    left: 176px;
 }
 
 .secondBoxAllProductsCheck.show {
     visibility: visible;
+    z-index: 1;
 }
 
 .thirdBoxAllProductsCheck {
     width: 25px;
     height: 25px;
-    position: absolute;
+    position: relative;
     visibility: collapse;
+    left: 147px;
 }
 
 .thirdBoxAllProductsCheck.show {
     visibility: visible;
-}
-
-.firstboxofAllRows {
-    left: 213px;
-}
-
-.secondboxofAllRows {
-    left: 213px;
-}
-
-.thirdboxofAllRows {
-    left: 213px;
-}
-
-.fourthboxofAllRows {
-    left: 213px;
+    z-index: 1;
 }
 
 
@@ -337,6 +326,7 @@
     color: #000;
     position: relative;
     left: 8%;
+    bottom: 12px;
 }
 
 .custom-brand-product-cart {
@@ -346,14 +336,19 @@
     cursor: pointer;
     position: relative;
     right: -60%;
+    bottom: 9px;
 }
 
 .first-list-of-custom-brand-product-for-a .product-box {
     text-decoration: none;
     height: auto;
+    position: relative;
+    top: -27px;
 }
 
 .first-custom-brand-product-listImage {
+
+    display: inline-block;
     width: 230px;
     height: 230px;
 }
