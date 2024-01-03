@@ -1,8 +1,34 @@
+@media screen and (max-width: 935px) {
+    .customization-boxes {
+        padding: 0px;
+    }
+
+    .custom-brand-product-list {
+        width: 95%;
+    }
+}
+
 @media screen and (max-width: 900px) {
+    .close-products {
+        top: 112px;
+    }
+
+    .firstBoxAllProductsCheck {
+        left: 190px;
+    }
+
+    .secondBoxAllProductsCheck {
+        left: 162px;
+    }
+
+    .thirdBoxAllProductsCheck {
+        left: 133px;
+    }
 
     .for-brand-logo-name-custom {
         margin-top: 45px;
     }
+
 
     .for-brand-logo-under-custom img {
         width: 120px;
@@ -36,10 +62,102 @@
     }
 }
 
+@media screen and (max-width: 830px) {
+    .customization-boxes {
+        margin: 50px auto;
+        width: 90%;
+    }
+
+    .custom-brand-product-list {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 788px) {
+    .customization-boxes {
+        width: 95%;
+    }
+
+    .firstBoxAllProductsCheck {
+        left: 183px;
+    }
+
+    .secondBoxAllProductsCheck {
+        left: 154px;
+    }
+
+    .thirdBoxAllProductsCheck {
+        left: 126px;
+    }
+
+    .first-list-of-custom-brand-product-for-a {
+        width: 226px;
+        height: 326px;
+    }
+
+    .first-custom-brand-product-listImage {
+        width: 208px;
+        height: 208px;
+    }
+}
+
 @media screen and (max-width: 780px) {
     .custom-heading {
         width: 375px;
         font-size: 17px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .firstBoxAllProductsCheck {
+        left: 175px;
+    }
+
+    .secondBoxAllProductsCheck {
+        left: 146px;
+    }
+
+    .thirdBoxAllProductsCheck {
+        left: 118px;
+    }
+
+    .first-list-of-custom-brand-product-for-a {
+        width: 218px;
+        height: 315px;
+    }
+
+    .first-custom-brand-product-listImage {
+        width: 200px;
+        height: 200px;
+    }
+
+}
+
+@media screen and (max-width: 743px) {
+    .firstBoxAllProductsCheck {
+        left: 147px;
+    }
+
+    .secondBoxAllProductsCheck {
+        left: 118px;
+    }
+
+    .thirdBoxAllProductsCheck {
+        left: 90px;
+    }
+
+    .first-list-of-custom-brand-product-for-a {
+        width: 190px;
+        height: 285px;
+    }
+
+    .first-custom-brand-product-listImage {
+        width: 172px;
+        height: 172px;
+    }
+
+    .custom-brand-product-cart {
+        right: -47%;
     }
 }
 
@@ -58,17 +176,47 @@
         width: 125px;
         height: 42px;
     }
+}
+
+@media screen and (max-width: 659px) {
+    .firstBoxAllProductsCheck {
+        left: 117px;
+    }
+
+    .secondBoxAllProductsCheck {
+        left: 88px;
+    }
+
+    .thirdBoxAllProductsCheck {
+        left: 60px;
+    }
 
     .first-list-of-custom-brand-product-for-a {
-        width: 218px;
-        height: 315px;
+        width: 160px;
+        height: 250px;
     }
 
     .first-custom-brand-product-listImage {
-        width: 200px;
-        height: 200px;
+        width: 142px;
+        height: 142px;
+    }
+
+    .product-title {
+        font-size: 13px;
+    }
+
+    .custom-brand-product-cart {
+        right: -40%;
     }
 }
+
+@media screen and (max-width: 640px) {
+    .customization-boxes {
+      width: 100%;
+    }
+}
+
+
 
 @media screen and (max-width: 600px) {
     .custom-brand-product-list {
@@ -89,17 +237,32 @@
         width: 108px;
         height: 108px;
     }
+
     .custom-heading {
         width: 390px;
     }
+
     .for-customize-button {
         position: absolute;
         top: 260px;
-      }
+    }
+
     .for-customize-button button {
         width: 105px;
         height: 35px;
         font-size: 13px;
+    }
+
+    .firstBoxAllProductsCheck {
+        left: 107px;
+    }
+
+    .secondBoxAllProductsCheck {
+        left: 78px;
+    }
+
+    .thirdBoxAllProductsCheck {
+        left: 50px;
     }
 
     .first-list-of-custom-brand-product-for-a {
@@ -136,53 +299,100 @@
     .for-brand-logo-under-custom {
         top: 125px;
     }
+
     .for-brand-logo-under-custom img {
         width: 100px;
         height: 100px;
-      }
-      .custom-heading {
+    }
+
+    .custom-heading {
         width: 360px;
         font-size: 14px;
-      }
-     .first-list-of-custom-brand-product-for-a {
+    }
+
+    .firstBoxAllProductsCheck {
+        left: 87px;
+    }
+
+    .secondBoxAllProductsCheck {
+        left: 58px;
+    }
+
+    .thirdBoxAllProductsCheck {
+        left: 30px;
+    }
+
+    .first-list-of-custom-brand-product-for-a {
         width: 130px;
         height: 200px;
-      }
-      .first-custom-brand-product-listImage {
+    }
+
+    .first-custom-brand-product-listImage {
         width: 112px;
         height: 112px;
-      }
-      .custom-brand-product-cart {
+    }
+
+    .custom-brand-product-cart {
         right: -48%;
-      }
+    }
 }
 
 @media screen and (max-width: 420px) {
-      .first-list-of-custom-brand-product-for-a {
+    .firstBoxAllProductsCheck {
+        left: 72px;
+    }
+
+    .secondBoxAllProductsCheck {
+        left: 44px;
+    }
+
+    .thirdBoxAllProductsCheck {
+        left: 15px;
+    }
+
+    .first-list-of-custom-brand-product-for-a {
         width: 115px;
         height: 190px;
-      }
-      .first-custom-brand-product-listImage {
+    }
+
+    .first-custom-brand-product-listImage {
         width: 97px;
         height: 97px;
-      }
-      .product-title {
+    }
+
+    .product-title {
         font-size: 10px;
-      }
-      .custom-brand-product-cart {
+    }
+
+    .custom-brand-product-cart {
         right: -40%;
-      }
+    }
 }
+
 @media screen and (max-width: 375px) {
+    .firstBoxAllProductsCheck {
+        left: 66px;
+    }
+
+    .secondBoxAllProductsCheck {
+        left: 37px;
+    }
+
+    .thirdBoxAllProductsCheck {
+        left: 8px;
+    }
+
     .first-list-of-custom-brand-product-for-a {
         width: 108px;
         height: 180px;
     }
+
     .first-custom-brand-product-listImage {
         width: 90px;
         height: 90px;
-      }
-      .custom-brand-product-cart {
+    }
+
+    .custom-brand-product-cart {
         right: -35%;
-      }
+    }
 }
