@@ -212,11 +212,52 @@
 
 @media screen and (max-width: 640px) {
     .customization-boxes {
-      width: 100%;
+        width: 100%;
     }
 }
 
+@media screen and (max-width: 610px) {
+    .headings-of-customization-boxes {
+        font-size: 16px;
+    }
 
+    .custom-boxes {
+        width: 180px;
+        height: 180px;
+    }
+
+    .sub-partitions-for-four-parts-of-thousand-gram {
+        width: 70px;
+        height: 70px;
+    }
+
+    .sub-partitions-for-four-parts-of-thousand-gram p {
+        font-size: 12px;
+    }
+
+    .sub-partitions-for-four-parts-of-two-thousand-gram {
+        width: 70px;
+        height: 70px;
+    }
+
+    .sub-partitions-for-four-parts-of-two-thousand-gram p {
+        font-size: 12px;
+    }
+
+    .custom-box-for-two-parts-of-thousand-gram {
+        width: 180px;
+        height: 90px;
+    }
+
+    .sub-partitions-for-two-parts-of-thousand-gram {
+        width: 72.5px;
+        height: 72.5px;
+    }
+
+    .sub-partitions-for-two-parts-of-thousand-gram p {
+        font-size: 12px;
+    }
+}
 
 @media screen and (max-width: 600px) {
     .custom-brand-product-list {
@@ -295,6 +336,96 @@
     }
 }
 
+@media screen and (max-width: 560px) {
+    .headings-of-customization-boxes {
+        font-size: 15px;
+    }
+
+    .custom-boxes {
+        width: 170px;
+        height: 170px;
+    }
+
+    .sub-partitions-for-four-parts-of-thousand-gram {
+        width: 65px;
+        height: 65px;
+    }
+
+    .sub-partitions-for-four-parts-of-thousand-gram p {
+        font-size: 11px;
+        padding-top: 25px;
+    }
+
+    .sub-partitions-for-four-parts-of-two-thousand-gram {
+        width: 65px;
+        height: 65px;
+    }
+
+    .sub-partitions-for-four-parts-of-two-thousand-gram p {
+        font-size: 11px;
+        padding-top: 25px;
+    }
+
+    .custom-box-for-two-parts-of-thousand-gram {
+        width: 170px;
+        height: 85px;
+    }
+
+    .sub-partitions-for-two-parts-of-thousand-gram {
+        width: 65.5px;
+        height: 65.5px;
+    }
+
+    .sub-partitions-for-two-parts-of-thousand-gram p {
+        font-size: 11px;
+    }
+}
+
+@media screen and (max-width: 520px) {
+    .headings-of-customization-boxes {
+        font-size: 14px;
+    }
+
+    .custom-boxes {
+        width: 150px;
+        height: 150px;
+    }
+
+    .sub-partitions-for-four-parts-of-thousand-gram {
+        width: 56px;
+        height: 56px;
+    }
+
+    .sub-partitions-for-four-parts-of-thousand-gram p {
+        font-size: 10px;
+        padding-top: 19px;
+    }
+
+    .sub-partitions-for-four-parts-of-two-thousand-gram {
+        width: 56px;
+        height: 56px;
+    }
+
+    .sub-partitions-for-four-parts-of-two-thousand-gram p {
+        font-size: 10px;
+        padding-top: 19px;
+    }
+
+    .custom-box-for-two-parts-of-thousand-gram {
+        width: 150px;
+        height: 75px;
+    }
+
+    .sub-partitions-for-two-parts-of-thousand-gram {
+        width: 55.5px;
+        height: 55.5px;
+    }
+
+    .sub-partitions-for-two-parts-of-thousand-gram p {
+        font-size: 10px;
+    }
+}
+
 @media screen and (max-width: 480px) {
     .for-brand-logo-under-custom {
         top: 125px;
@@ -334,6 +465,89 @@
 
     .custom-brand-product-cart {
         right: -48%;
+    }
+}
+
+@media screen and (max-width: 460px) {
+    .headings-of-customization-boxes {
+        font-size: 13px;
+    }
+
+    .custom-boxes {
+        width: 130px;
+        height: 130px;
+    }
+
+    .sub-partitions-for-four-parts-of-thousand-gram {
+        width: 50px;
+        height: 50px;
+    }
+
+    .custom-box-one-of-four-of-thousand-gram {
+        top: 12px;
+        left: 12px;
+    }
+
+    .custom-box-two-of-four-of-thousand-gram {
+        top: 12px;
+        left: 10px;
+    }
+
+    .custom-box-three-of-four-of-thousand-gram {
+        top: 11px;
+        left: 12px;
+    }
+
+    .custom-box-four-of-four-of-thousand-gram {
+        top: 11px;
+        left: 10px;
+    }
+
+    .sub-partitions-for-four-parts-of-thousand-gram p {
+        font-size: 9px;
+        padding-top: 18px;
+    }
+
+    .sub-partitions-for-four-parts-of-two-thousand-gram {
+        width: 50px;
+        height: 50px;
+    }
+    .custom-box-one-of-four-of-two-thousand-gram {
+        top: 12px;
+        left: 12px;
+    }
+    .custom-box-two-of-four-of-two-thousand-gram {
+        top: 12px;
+        left: 10px;
+    }
+
+    .custom-box-three-of-four-of-two-thousand-gram {
+        top: 11px;
+        left: 12px;
+    }
+
+    .custom-box-four-of-four-of-two-thousand-gram {
+        top: 11px;
+        left: 10px;
+    }
+
+    .sub-partitions-for-four-parts-of-two-thousand-gram p {
+        font-size: 9px;
+        padding-top: 18px;
+    }
+
+    .custom-box-for-two-parts-of-thousand-gram {
+        width: 130px;
+        height: 65px;
+    }
+
+    .sub-partitions-for-two-parts-of-thousand-gram {
+        width: 50.5px;
+        height: 50.5px;
+    }
+
+    .sub-partitions-for-two-parts-of-thousand-gram p {
+        font-size: 9px;
     }
 }
 
