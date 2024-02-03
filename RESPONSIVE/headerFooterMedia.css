@@ -1,5 +1,7 @@
-/* media for 645px */
-@media screen and (max-width: 645px) {
+@media screen and (max-width: 1120px) {}
+
+/* media for 900px */
+@media screen and (max-width: 900px) {
 
     /* Footer Media */
     .space-for-footer {
@@ -185,9 +187,11 @@
         position: absolute;
         right: 4%;
     }
-.cart.active{
-    width: 100%;
-}
+
+    .cart.active {
+        width: 100%;
+    }
+
     .account {
         width: auto;
         height: auto;
@@ -237,8 +241,38 @@
     }
 }
 
+
+@media screen and (max-width: 461px) {
+    .newsletter {
+        width: 260px;
+        height: 200px;
+    }
+
+    .footer-e-mail {
+        width: 260px;
+        height: 38px;
+    }
+
+    .newsletter h3 {
+        font-size: 14px;
+    }
+
+    .follow-us {
+        width: 135px;
+        height: 200px;
+    }
+
+    .linkedin img,
+    .twitter img,
+    .facebook img,
+    .instagram img,
+    .youtube img {
+        width: 25px;
+    }
+}
+
 /* media for 412px */
-@media screen and (max-width: 412px) {
+@media screen and (max-width: 430px) {
 
     /* footer media */
     .know-us {
@@ -348,6 +382,17 @@
     }
 }
 
+@media screen and (max-width: 398px) {
+    .socialMediaLinks {
+        padding: 17px 0 0 0;
+    }
+
+    .follow-us {
+        width: 170px;
+        height: 100px;
+    }
+}
+
 /* media for 360px */
 @media screen and (max-width: 360px) {
 
@@ -429,10 +474,6 @@
         text-align: center;
     }
 
-    .follow-us {
-        width: 250px;
-        height: 150px;
-    }
 
     .newsletter {
         height: 150px;
@@ -490,16 +531,20 @@
         width: 48px;
         height: 48px;
     }
-    .search{
+
+    .search {
         right: 16%;
     }
-    .account{
+
+    .account {
         left: 16%;
     }
+
     .HL-product {
         left: -2%;
-      }
-      .HL-product img {
+    }
+
+    .HL-product img {
         width: 60px;
-      }
+    }
 }
