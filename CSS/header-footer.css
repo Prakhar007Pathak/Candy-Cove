@@ -1,8 +1,9 @@
-* {
+*{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: 'Ubuntu', 'Nunito', sans-serif;
+    
 }
 
 /* header */
@@ -122,11 +123,12 @@ header {
 
 
 /* CART */
-#cart-icon{
+#cart-icon {
     /* height: 50px; */
     font-size: 23px;
     padding: 0 0 3px 0;
 }
+
 .cart {
     position: absolute;
     top: 110px;
@@ -331,7 +333,7 @@ header {
     width: 94%;
     height: auto;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     flex-wrap: wrap;
 }
@@ -356,8 +358,11 @@ header {
 
 .know-us nav ul a {
     font-size: 15px;
-    color: white;
-    text-decoration: none;
+    color: #a59d9d;
+}
+
+.know-us nav ul a:hover {
+    color: #fff;
 }
 
 .terms-cond {
@@ -376,7 +381,12 @@ header {
 
 .terms-cond nav ul a {
     font-size: 15px;
-    color: white;
+    /* color: rgba(255, 255, 255, 0.63); */
+    color: #a59d9d;
+}
+
+.terms-cond nav ul a:hover {
+    color: #fff;
 }
 
 .contact {
@@ -415,17 +425,6 @@ header {
     color: white;
 }
 
-.contact-phone-to-distributor p {
-    font-size: 15px;
-    color: white;
-    margin-bottom: 5px;
-}
-
-.contact-phone-to-distributor p a {
-    font-size: 15px;
-    color: white;
-}
-
 .follow-us {
     /* margin-bottom: 50px; */
     width: 185px;
@@ -439,26 +438,21 @@ header {
     text-align: center;
 }
 
-.fab-ins {
-    position: relative;
-    top: 15%;
+.socialMediaLinks {
+    width: 100%;
+    height: 100%;
     display: flex;
     justify-content: space-around;
+    /* align-items: center; */
 
 }
 
-.container-forboth-insta-fab {
-    width: 60px;
-    height: 60px;
-    background-color: black;
-    border-radius: 10px;
-}
-
-.social-media__link {
-    width: 60px;
-    height: 60px;
-    display: inline-block;
-    color: white;
+.linkedin img,
+.twitter img,
+.facebook img,
+.instagram img,
+.youtube img {
+    width: 30px;
 }
 
 .newsletter {
